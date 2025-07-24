@@ -1,0 +1,133 @@
+body{
+  background-color:#1e2229;
+}
+.upcoming-events-container {
+  background-color:white;
+  padding: 60px 1px;
+  max-width: 1200px;
+  margin: auto;
+  color: #1f262f;
+  margin-bottom: 20px;
+ 
+}
+
+.events-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.event-card {
+  background-color: #fff;
+  width: 260px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 10px 15px;
+  color: #666;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Image section with top black line */
+.event-image-container {
+  position: relative;
+}
+
+.top-line {
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.event-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.event-title {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px;
+  color: #1f262f;
+}
+
+.view-all-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.view-all-btn {
+  border: 1px solid #1f262f;
+  background: transparent;
+  color: #1f262f;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s;
+}
+
+.view-all-btn:hover {
+  background: #1f262f;
+  color: #fff;
+}
+
+.arrow {
+  font-weight: bold;
+}
+
+/* 🔽 Responsive Styles */
+@media (max-width: 768px) {
+  .events-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .events-list {
+    justify-content: center;
+  }
+
+  .event-card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .view-all-container {
+    justify-content: center;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-title {
+    font-size: 13px;
+  }
+
+  .view-all-btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}

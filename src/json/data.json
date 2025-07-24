@@ -1,0 +1,176 @@
+{
+  "0": {
+    "page": "navbar",
+    "id": "0",
+    "menu": [
+      {
+        "name": "Home",
+        "link": "/"
+      },
+      {
+        "name": "About",
+        "link": "/about",
+        "submenu": [
+          {
+            "name": "Leadership",
+            "link": "/leadership"
+          }
+        ]
+      },
+      {
+        "name": "Projects",
+        "link": "/projects",
+        "submenu": [
+          {
+            "name": "Thermal Ppwer",
+            "link": "/Thermal"
+          }
+        ]
+      },
+      {
+        "name": "Equipments",
+        "link": "/Equipments"
+      },
+      {
+        "name": "Certificates",
+        "link": "/Certificates"
+      },
+      {
+        "name": "Why Work With Us",
+        "link": "/Why Us"
+      }
+    ]
+  },
+  "1": {
+    "page": "Home",
+    "Herosection": [
+      {
+        "image": "/road-3.jpg",
+        "heading": "CT Assessment",
+        "description": "Study of cooling tower thermal design, fan curves, operating duty point, performance curves, nozzle and duct sizing and present performance to predicted performance. In house and international computer programmes to check ratings of cooling tower."
+      },
+      {
+        "image": "/road-4.jpg",
+        "heading": "CT Site Data Verification",
+        "description": "Site visits, physical observation of critical parameters, critical components like CT fan, Nozzles, CT Fills, CT layout and other possible causes of loss of performance. Site operating conditions vs cooling tower design considerations. Data collections at site using latest equipment."
+      },
+      {
+        "image": "/road-5.jpg",
+        "heading": "CT Performance Testing",
+        "description": "We carry out PG test for cooling towers as per CTI ATC 105 to verify the performance of New or Existing cooling towers to verify the capability of the towers. This includes data to be collected as per performance test method CTI ATC 105 and additional data like air velocity and temperatures contours above drift eliminators, fan air flow measurement, inlet air velocity contours, recirculation patterns."
+      },
+      {
+        "image": "/road-6.jpg",
+        "heading": "CT Performance Upgrade Solutions",
+        "description": "We provide total solutions to cooling tower performance shortfall. From collecting and analysing Data to provide solutions in the form of change of components, improving existing components and providing experienced agency to carry out the work successfully."
+      },
+      {
+        "image": "/road-7.jpg",
+        "heading": "CT Seminars And Training Cooling Tower Seminars And Training",
+        "description": "We carry out PG test for cooling towers as per CTI ATC 105 to verify the performance of New or Existing cooling towers to verify the capability of the towers. This includes data to be collected as per performance test method CTI ATC 105 and additional data like air velocity and temperatures contours above drift eliminators, fan air flow measurement, inlet air velocity contours, recirculation patterns."
+      },
+      {
+        "image": "/road-15.jpeg",
+        "heading": "CT Bid Specifications And Bid Reviews",
+        "description": "We carry out PG test for cooling towers as per CTI ATC 105 to verify the performance of New or Existing cooling towers to verify the capability of the towers. This includes data to be collected as per performance test method CTI ATC 105 and additional data like air velocity and temperatures contours above drift eliminators, fan air flow measurement, inlet air velocity contours, recirculation patterns."
+      },
+      {
+        "image": "/road-17.jpeg",
+        "heading": "Water Flow Testing",
+        "description": "We can provide services for measurement of water flow using either ultrasonic flow meter or traversing pitot tube."
+      }
+    ],
+    "AboutCompany": {
+      "mainHeading": "Baker Tilly is growing to serve you better",
+      "subHeading": "Baker Tilly continues to invest in coast-to-coast and global advisory, tax and assurance capabilities to help enhance and protect our clients' value.",
+      "cards": [
+        {
+          "title": "Baker Tilly to expand Southeast presence with addition of KraftCPAs",
+          "description": "Leading advisory, tax and assurance firm Baker Tilly announces its intent to acquire KraftCPAs PLLC...",
+          "image": "road-7.jpg"
+        },
+        {
+          "title": "Baker Tilly to acquire Sockeye to expand Sage Intacct capabilities",
+          "description": "Leading advisory, tax and assurance firm Baker Tilly announces its intent to acquire Sockeye...",
+          "image": "road-6.jpg"
+        },
+        {
+          "title": "Baker Tilly and Moss Adams to combine",
+          "description": "Expanded industry specialization, geographic reach and private equity investment...",
+          "image": "road-5.jpg"
+        },
+        {
+          "title": "Baker Tilly and Moss Adams to combine",
+          "description": "Expanded industry specialization, geographic reach and private equity investment...",
+          "image": "road-4.jpg"
+        },
+        {
+          "title": "Baker Tilly and Moss Adams to combine",
+          "description": "Expanded industry specialization, geographic reach and private equity investment...",
+          "image": "road-3.jpg"
+        }
+      ]
+    },
+    "CompanyHighlights": {
+      "image": "project-1.png",
+      "subheading": "TAKE YOUR BUSINESS TO WHERE IT’S NEVER BEEN.",
+      "heading": "When you look beyond the obvious, you see things others don't. This is how we approach every challenge, helping us guide our clients to a destination they thought was beyond reach.",
+      "buttonText": "Go there. Start here."
+    },
+    "JoinOurTeam": {
+      "image": "project-2.png",
+      "subheading": "MEET OUR RECRUITING TEAM ON CAMPUS",
+      "heading": "Now, for tomorrow is our promise. Go there with us!",
+      "buttonText": "Discover why SSCTC is right for you",
+      "buttonIcon": "→"
+    },
+    "UpcomingEvents": [
+      {
+        "type": "SEMINAR",
+        "date": "JUL 24",
+        "image": "road-11.jpg",
+        "title": "Looking ahead: Financial strategy and foresight in life sciences"
+      },
+      {
+        "type": "CONFERENCE",
+        "date": "JUL 26",
+        "image": "road-12.jpg",
+        "title": "NACUBO 2025 Annual Meeting"
+      },
+      {
+        "type": "WEBINAR",
+        "date": "JUL 30",
+        "image": "road-13.webp",
+        "title": "Powering up public plans: What every government and not-for-profit sponsor needs to know"
+      },
+      {
+        "type": "WEBINAR",
+        "date": "AUG 14",
+        "image": "road-16.webp",
+        "title": "Beyond the build: Strategic success in Costpoint implementations"
+      }
+    ],
+    "OurExpertise": {
+  "mainHeading": "Our Industry Specialization",
+  "subHeading": "Our years of experience across industries runs deep while we maintain a constant lookout for what's next. See what we deliver in your sector.",
+  "cards": [
+    {
+      "title": "Construction",
+      "description": "Our experienced construction experts help improve business through audit, tax and advisory services tailored to construction industry challenges.",
+      "image": "project-3.png"
+    },
+    {
+      "title": "Energy",
+      "description": "Energy consulting expertise where it matters — on the ground, in the grid and for the future.",
+      "image": "project-4.png"
+    },
+    {
+      "title": "Financial Services",
+      "description": "We help navigate complex vendor relationships and competition to determine efficient business strategies.",
+      "image": "road-6.jpg"
+    }
+  ]
+}
+
+  }
+}
