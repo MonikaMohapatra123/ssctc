@@ -1,5 +1,5 @@
-
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 import "./UpcomingEvents.css";
 
 const UpcomingEvents = ({ events = [] }) => {
@@ -29,7 +29,7 @@ const UpcomingEvents = ({ events = [] }) => {
       </div>
       <div className="view-all-container">
         <button className="view-all-btn">
-          View all events <span className="arrow">→</span>
+          View all events <FaArrowRight className="arrow-icon" />
         </button>
       </div>
     </div>

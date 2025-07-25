@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 40px;
   background-color: #fff;
+  padding:80px 50px;
 }
 
 .highlight-image img {
@@ -35,7 +36,6 @@
   margin-bottom: 30px;
   font-weight: 400;
 }
-
 .highlight-button {
   padding: 14px 24px;
   border: 1px solid #999;
@@ -47,7 +47,12 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  transition: 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.arrow-icon {
+  font-size: 14px;
+  transition: transform 0.3s ease;
 }
 
 .highlight-button:hover {
@@ -55,6 +60,6 @@
   color: #fff;
 }
 
-.arrow-icon {
-  font-size: 14px;
+.highlight-button:hover .arrow-icon {
+  transform: translateX(5px); /* moves arrow to the right */
 }

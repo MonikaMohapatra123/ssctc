@@ -1,5 +1,4 @@
 
-
 import React, { useState, useEffect } from "react";
 import "./Herosection.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";

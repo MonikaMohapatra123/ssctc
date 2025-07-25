@@ -32,6 +32,9 @@
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .newsletter-btn:hover {
@@ -39,6 +42,13 @@
   color: black;
 }
 
+/* 👇 Add this class to support FaArrowRight icon */
+.arrow-icon {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+/* Social Icons */
 .social-icons {
   display: flex;
   gap: 20px;
@@ -96,7 +106,14 @@
 }
 
 .footer-bottom p {
-  margin-left:30px;
+  margin-left: 30px;
+}
+.footer-attribution {
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 20px;
+  line-height: 1.6;
 }
 
 /* Responsive */

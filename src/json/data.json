@@ -80,50 +80,51 @@
         "description": "We can provide services for measurement of water flow using either ultrasonic flow meter or traversing pitot tube."
       }
     ],
-    "AboutCompany": {
-      "mainHeading": "Baker Tilly is growing to serve you better",
-      "subHeading": "Baker Tilly continues to invest in coast-to-coast and global advisory, tax and assurance capabilities to help enhance and protect our clients' value.",
-      "cards": [
-        {
-          "title": "Baker Tilly to expand Southeast presence with addition of KraftCPAs",
-          "description": "Leading advisory, tax and assurance firm Baker Tilly announces its intent to acquire KraftCPAs PLLC...",
-          "image": "road-7.jpg"
-        },
-        {
-          "title": "Baker Tilly to acquire Sockeye to expand Sage Intacct capabilities",
-          "description": "Leading advisory, tax and assurance firm Baker Tilly announces its intent to acquire Sockeye...",
-          "image": "road-6.jpg"
-        },
-        {
-          "title": "Baker Tilly and Moss Adams to combine",
-          "description": "Expanded industry specialization, geographic reach and private equity investment...",
-          "image": "road-5.jpg"
-        },
-        {
-          "title": "Baker Tilly and Moss Adams to combine",
-          "description": "Expanded industry specialization, geographic reach and private equity investment...",
-          "image": "road-4.jpg"
-        },
-        {
-          "title": "Baker Tilly and Moss Adams to combine",
-          "description": "Expanded industry specialization, geographic reach and private equity investment...",
-          "image": "road-3.jpg"
-        }
-      ]
+  "AboutCompany": {
+  "mainHeading": "SSCTC – Leading the Future of Cooling Technology",
+  "subHeading": "SSCTC is committed to delivering high-performance, energy-efficient, and eco-friendly cooling solutions across industries through continuous innovation and engineering excellence.",
+  "cards": [
+    {
+      "title": "Induced Draft Counter Flow Cooling Towers",
+      "description": "Our Induced Draft Counter Flow Cooling Towers are engineered for optimal thermal performance. With upward air movement via powerful fans and downward hot water flow, they ensure efficient heat transfer and compact, space-saving installation for both industrial and HVAC systems.",
+      "image": "road-7.jpg"
     },
+    {
+      "title": "Fanless Fill-less Cooling Towers",
+      "description": "SSCTC's Fanless Fill-less Cooling Towers offer a revolutionary cooling solution without mechanical fans or fill media. Ideal for dusty or harsh environments, they deliver reliable performance with minimal maintenance and reduced energy consumption.",
+      "image": "road-6.jpg"
+    },
+    {
+      "title": "Customized Cooling Solutions",
+      "description": "We provide fully customized cooling tower solutions tailored to your industry's unique demands — from capacity and materials to design and environmental compliance — ensuring maximum efficiency and longevity.",
+      "image": "road-5.jpg"
+    },
+    {
+      "title": "Sustainable and Energy-Efficient Designs",
+      "description": "SSCTC designs every product with sustainability in mind. Our cooling towers reduce carbon footprint, save energy, and support green building initiatives, making them the preferred choice for modern industries.",
+      "image": "road-4.jpg"
+    },
+    {
+      "title": "Nationwide Service and Support Network",
+      "description": "With a strong service network and expert technical support, SSCTC ensures timely installation, maintenance, and troubleshooting across the country — keeping your operations running smoothly 24/7.",
+      "image": "road-3.jpg"
+    }
+  ]
+}
+,
     "CompanyHighlights": {
       "image": "project-1.png",
       "subheading": "TAKE YOUR BUSINESS TO WHERE IT’S NEVER BEEN.",
       "heading": "When you look beyond the obvious, you see things others don't. This is how we approach every challenge, helping us guide our clients to a destination they thought was beyond reach.",
       "buttonText": "Go there. Start here."
     },
-    "JoinOurTeam": {
-      "image": "project-2.png",
-      "subheading": "MEET OUR RECRUITING TEAM ON CAMPUS",
-      "heading": "Now, for tomorrow is our promise. Go there with us!",
-      "buttonText": "Discover why SSCTC is right for you",
-      "buttonIcon": "→"
-    },
+   "JoinOurTeam": {
+  "image": "project-2.png",
+  "subheading": "MEET OUR RECRUITING TEAM ON CAMPUS",
+  "heading": "Now, for tomorrow is our promise. Go there with us!",
+  "buttonText": "Discover why SSCTC is right for you"
+},
+
     "UpcomingEvents": [
       {
         "type": "SEMINAR",
@@ -202,7 +203,7 @@
   "2": {
     "page": "Footer",
     "id": "2",
-    "buttonText": "Subscribe to newsletters →",
+    "buttonText": "Subscribe to newsletters ",
     "socialIcons": [
       { "platform": "Facebook", "icon": "FaFacebookF" },
       { "platform": "Instagram", "icon": "FaInstagram" },

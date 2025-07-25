@@ -48,8 +48,13 @@
   color: #1f262f;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  gap: 10px; /* Space between text and icon */
+}
+
+.join-button .button-icon {
+  transition: transform 0.3s ease;
 }
 
 .join-button:hover {
@@ -57,9 +62,8 @@
   color: white;
 }
 
-.arrow {
-  margin-left: 10px;
-  font-size: 18px;
+.join-button:hover .button-icon {
+  transform: translateX(5px); /* Arrow slides slightly to right on hover */
 }
 
 /* ✅ Tablet view (768px and below) */
@@ -106,10 +110,9 @@
   .join-button {
     font-size: 13px;
     padding: 10px 18px;
-   
   }
 
-  .arrow {
+  .join-button .button-icon {
     font-size: 16px;
   }
 }

@@ -1,6 +1,3 @@
-
-
-
 import React, { useRef } from "react";
 import "./AboutCompany.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -10,15 +7,14 @@ const AboutCompany = ({ aboutCompanyData }) => {
 
   const scroll = (direction) => {
     if (sliderRef.current) {
-      const scrollAmount = sliderRef.current.offsetWidth;
+      const cardWidth = 332 + 20; // card width + gap
       sliderRef.current.scrollBy({
-        left: direction === "left" ? -scrollAmount : scrollAmount,
+        left: direction === "left" ? -cardWidth * 3 : cardWidth * 3,
         behavior: "smooth",
       });
     }
   };
 
-  // ✅ Prevent error if data is missing
   if (!aboutCompanyData || !aboutCompanyData.cards) {
     return <div className="aboutcompany-wrapper">No data available.</div>;
   }

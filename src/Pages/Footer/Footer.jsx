@@ -5,9 +5,11 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
+  FaArrowRight,
 } from "react-icons/fa";
 import data from "../../json/data.json";
 
+// Map string names to actual icon components
 const iconMap = {
   FaFacebookF: <FaFacebookF />,
   FaInstagram: <FaInstagram />,
@@ -16,16 +18,19 @@ const iconMap = {
 };
 
 const Footer = () => {
-  const footerData = data["2"]; // Accessing the footer object with id "2"
+  const footerData = data["2"]; // Access footer section with ID "2"
+
+  if (!footerData) return null;
 
   return (
     <footer className="footer-wrapper">
       <div className="footer-top">
-        {/* Left Column: Button + Icons */}
+        {/* Left Column: Subscribe button and social icons */}
         <div className="footer-column-left">
           <button className="newsletter-btn">
-            {footerData.buttonText}
+            {footerData.buttonText} <FaArrowRight className="arrow-icon" />
           </button>
+
           <div className="social-icons">
             {footerData.socialIcons.map((iconObj, index) => (
               <div key={index} className="icon">
@@ -35,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Right Columns: Links */}
+        {/* Right Column: Footer links */}
         <div className="footer-links">
           {footerData.footerLinks.map((col, colIndex) => (
             <ul key={colIndex}>
@@ -47,10 +52,15 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Text */}
+      {/* Footer Bottom: Description */}
       <div className="footer-bottom">
         <p>{footerData.footerDescription}</p>
       </div>
+     <div className="footer-attribution">
+  <div>© 2024 M.S Construction PVT. LTD & Associates All Rights Reserved</div>
+  <div>Website designed and managed by <strong>AXIOMOS</strong></div>
+</div>
+
     </footer>
   );
 };

@@ -2,7 +2,7 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --cyan: #00bcbc;
+  --cyan: #50eeee;
   --dark-bg:#292e36;
 }
 
@@ -34,12 +34,13 @@ body {
 }
 
 .logo {
-  height: 116px; /* Bigger logo */
-  width: 100px;
+  height: 156px; /* Bigger logo */
+  width: 160px;
+ 
 }
 
 .hamburger {
-  font-size: 26px;
+  font-size: 28px;
   background: none;
   border: none;
   color: var(--white);
@@ -158,4 +159,8 @@ body {
   margin-left: 10px;
   font-size: 12px;
   color: #ccc;
+}
+
+.submenu a{
+  padding:12px;
 }

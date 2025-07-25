@@ -1,6 +1,7 @@
+import React from "react";
+import { FaArrowRight } from "react-icons/fa"; 
+import "./JoinOurTeam.css";
 
-
- import "./JoinOurTeam.css";
 const JoinOurTeam = ({ data }) => {
   if (!data) return null;
 
@@ -13,11 +14,11 @@ const JoinOurTeam = ({ data }) => {
         <p className="join-subheading">{data.subheading}</p>
         <h2 className="join-main-text">{data.heading}</h2>
         <button className="join-button">
-          {data.buttonText} <span>{data.buttonIcon}</span>
+          {data.buttonText} <FaArrowRight className="button-icon" />
         </button>
       </div>
     </div>
   );
 };
-export default JoinOurTeam;
 
+export default JoinOurTeam;

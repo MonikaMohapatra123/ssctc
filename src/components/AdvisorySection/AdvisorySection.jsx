@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./AdvisorySection.css";
 
@@ -52,10 +51,12 @@ const AdvisorySection = ({ data }) => {
               onMouseLeave={handleLeave}
             >
               <div className="card-top">
-                {isActive ? (
-                  <div className="scroll-text slide-left">{card.full}</div>
-                ) : isPrev ? (
-                  <div className="scroll-text slide-right">{card.full}</div>
+                {isActive || isPrev ? (
+                  <div className={`scroll-wrapper ${isPrev ? "right" : "left"}`}>
+                    <div className="scroll-track">
+                      {card.full}&nbsp;&nbsp;&nbsp;&nbsp;{card.full}&nbsp;&nbsp;&nbsp;&nbsp;{card.full}
+                    </div>
+                  </div>
                 ) : (
                   <div className="short-text">{card.full.slice(0, 2)}</div>
                 )}
@@ -73,4 +74,3 @@ const AdvisorySection = ({ data }) => {
 };
 
 export default AdvisorySection;
-
