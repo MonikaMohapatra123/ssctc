@@ -170,7 +170,77 @@
       "image": "road-6.jpg"
     }
   ]
+},"AdvisorySection": {
+  "headingLeft": "Leading\nadvisory, tax\nand assurance\nfirm",
+  "descriptionRight": "Baker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world’s leading financial centers – New York, London, San Francisco, Los Angeles, Chicago and Boston.",
+  "cards": [
+    {
+      "id": 1,
+      "full": "Assurance",
+      "title": "Assurance",
+      "description": "Baker Tilly pairs deep industry knowledge with service specialization to deliver high quality accounting and assurance services."
+    },
+    {
+      "id": 2,
+      "full": "Consulting",
+      "title": "Consulting",
+      "description": "Address challenges and uncover opportunities with consultants focused on protecting and enhancing your value."
+    },
+    {
+      "id": 3,
+      "full": "Tax",
+      "title": "Tax",
+      "description": "Contributing to clients’ success by accelerating tax deductions, increasing tax credits, reducing cash taxes and mitigating risks."
+    }
+  ]
 }
 
+
   }
+  ,
+  
+  "2": {
+    "page": "Footer",
+    "id": "2",
+    "buttonText": "Subscribe to newsletters →",
+    "socialIcons": [
+      { "platform": "Facebook", "icon": "FaFacebookF" },
+      { "platform": "Instagram", "icon": "FaInstagram" },
+      { "platform": "LinkedIn", "icon": "FaLinkedinIn" },
+      { "platform": "YouTube", "icon": "FaYoutube" }
+    ],
+    "footerLinks": [
+      {
+        "column": [
+          "About Us",
+          "Locations",
+          "Insights"
+        ]
+      },
+      {
+        "column": [
+          "Careers",
+          "Industries",
+          "Legal & Privacy"
+        ]
+      },
+      {
+        "column": [
+          "Client Portals",
+          "Services",
+          "CCPA Privacy"
+        ]
+      },
+      {
+        "column": [
+          "Pay Invoice",
+          "Professionals",
+          "Contact Us"
+        ]
+      }
+    ],
+    "footerDescription": "Baker Tilly US, LLP and Baker Tilly Advisory Group, LP and its subsidiary entities provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. © 2025 Baker Tilly."
+  }
+
+
 }

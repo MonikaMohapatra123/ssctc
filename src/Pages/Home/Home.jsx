@@ -8,6 +8,7 @@ import heroData from "../../json/data.json";
 import UpcomingEvents from "../../components/UpcomingEvents/UpcomingEvents";
 import JoinOurTeam from "../../components/JoinOurTeam/JoinOurTeam";
 import OurExpertise from "../../components/OurExpertise/OurExpertise";
+import AdvisorySection from "../../components/AdvisorySection/AdvisorySection";
 
 const Home = () => {
   const [data, setData] = useState(null);
@@ -26,6 +27,7 @@ const Home = () => {
       <UpcomingEvents events={data.UpcomingEvents} /> 
       <JoinOurTeam data={data.JoinOurTeam} />
       <OurExpertise expertiseData={data.OurExpertise} />
+      <AdvisorySection data={data.AdvisorySection} />
 
      
     </>
