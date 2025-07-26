@@ -56,11 +56,22 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>{footerData.footerDescription}</p>
       </div>
-     <div className="footer-attribution">
-  <div>© 2024 M.S Construction PVT. LTD & Associates All Rights Reserved</div>
-  <div>Website designed and managed by <strong>AXIOMOS</strong></div>
-</div>
 
+      {/* Attribution */}
+      <div className="footer-attribution">
+        <div>© 2025 SSCTC & Associates All Rights Reserved</div>
+        <div>
+          Website designed and managed by{" "}
+          <a
+            href="https://axiomos.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="axiomos-link"
+          >
+            AXIOMOS
+          </a>
+        </div>
+      </div>
     </footer>
   );
 };

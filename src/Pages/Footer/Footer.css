@@ -42,7 +42,7 @@
   color: black;
 }
 
-/* 👇 Add this class to support FaArrowRight icon */
+/* Support FaArrowRight icon */
 .arrow-icon {
   font-size: 16px;
   vertical-align: middle;
@@ -108,12 +108,27 @@
 .footer-bottom p {
   margin-left: 30px;
 }
+
+/* Attribution Section */
 .footer-attribution {
   text-align: center;
   font-size: 13px;
   color: #ccc;
   margin-top: 20px;
   line-height: 1.6;
+}
+
+/* AXIOMOS Link */
+.axiomos-link {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.axiomos-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 /* Responsive */

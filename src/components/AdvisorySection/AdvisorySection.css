@@ -13,39 +13,33 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-
 .advisory-left {
   max-width: 400px;
   flex: 1;
 }
-
 .advisory-line {
   height: 2px;
   width: 90%;
   background-color: white;
   margin-bottom: 20px;
 }
-
 .advisory-heading {
   font-size: 40px;
   font-weight: 800;
   line-height: 1.3;
   color: white;
 }
-
 .advisory-right {
   flex: 2;
   max-width: 700px;
   text-align: justify;
 }
-
 .advisory-right p {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
   color: white;
 }
-
 .card-section {
   display: flex;
   justify-content: center;
@@ -55,7 +49,6 @@
   flex-wrap: wrap;
   margin-right: 230px;
 }
-
 .card {
   width: 280px;
   background-color: white;
@@ -64,7 +57,6 @@
   transition: transform 0.3s ease;
   margin-top: -80px;
 }
-
 .card-top {
   background-color: #00c8c8;
   height: 130px;
@@ -76,14 +68,12 @@
   padding: 0 20px;
   border: 1px solid black;
 }
-
 .short-text {
   font-size: 150px;
   font-weight: 700;
   color: #00c8c8;
   -webkit-text-stroke: 1.5px black;
 }
-
 /* Continuous Scroll */
 .scroll-wrapper {
   width: 100%;
@@ -102,6 +92,7 @@
   color: #00c8c8;
   -webkit-text-stroke: 1.5px black;
   animation: scrollLeftLinear 8s linear infinite;
+  
 }
 
 .scroll-wrapper.right .scroll-track {
