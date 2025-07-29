@@ -241,7 +241,15 @@
       }
     ],
     "footerDescription": "Baker Tilly US, LLP and Baker Tilly Advisory Group, LP and its subsidiary entities provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. © 2025 Baker Tilly."
-  }
+  },
+  "3": {
+  "page": "AboutUs",
+  "id": "3",
+  "heading": "About Us",
+  "backgroundImage": "/project-4.png",
+  "description": "We are a top ten advisory tax and assurance firm dedicated to customized business solutions that generate and sustain growth. We lead with purpose, and we walk with you every step along your journey."
+}
+
 
 
 }

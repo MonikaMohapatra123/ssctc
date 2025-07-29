@@ -1,0 +1,30 @@
+.about-us-section {
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 110px;
+}
+
+.about-us-overlay {
+  background: rgba(7, 41, 61, 0.7); /* Slight dark overlay */
+  padding: 40px;
+  color: white;
+  text-align: left;
+  max-width: 900px;
+  width: 100%;
+}
+
+.about-us-overlay h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us-overlay p {
+  font-size: 18px;
+  line-height: 1.6;
+}

@@ -1,0 +1,92 @@
+body{
+    background-color: #f1f8ff;
+}
+.experience-section {
+  background: #fff;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 900px; /* Limit card width */
+  width: 90%;       /* Responsive width */
+  margin-top:110px;
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  background: #f1f8ff;
+  padding: 10px 20px;
+  border-left: 6px solid #007bff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.experience-header .icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.experience-header h2 {
+  font-size: 20px;
+  margin: 0;
+  color: #1c1c1c;
+  font-weight: 600;
+}
+
+.experience-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.experience-image {
+  flex: 1 1 200px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.experience-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.consultant-name {
+  color: #007bff;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.experience-details {
+  flex: 2 1 400px;
+  min-width: 250px;
+}
+
+.experience-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.experience-details li {
+  margin-bottom: 12px;
+  font-size: 15.5px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-details {
+    padding-top: 10px;
+  }
+}
