@@ -23,7 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<PublicLayout><Home /></PublicLayout>} />
         <Route path="/about" element={<PublicLayout><About/></PublicLayout>} />
-        <Route path="/leadership" element={<PublicLayout><Experience /></PublicLayout>} /> {/* ✅ Add this line */}
+        <Route path="/leadership" element={<PublicLayout><Experience /></PublicLayout>} /> 
       </Routes>
     </Suspense>
   );

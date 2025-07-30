@@ -1,67 +1,36 @@
 import React from "react";
 import "./Footer.css";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-  FaArrowRight,
-} from "react-icons/fa";
 import data from "../../json/data.json";
 
-// Map string names to actual icon components
-const iconMap = {
-  FaFacebookF: <FaFacebookF />,
-  FaInstagram: <FaInstagram />,
-  FaLinkedinIn: <FaLinkedinIn />,
-  FaYoutube: <FaYoutube />,
-};
-
 const Footer = () => {
-  const footerData = data["2"]; // Access footer section with ID "2"
-
+  const footerData = data["2"];
   if (!footerData) return null;
 
+  const allLinks = footerData.footerLinks.flatMap((col) => col.column).slice(0, 5);
+
   return (
-    <footer className="footer-wrapper">
-      <div className="footer-top">
-        {/* Left Column: Subscribe button and social icons */}
-        <div className="footer-column-left">
-          <button className="newsletter-btn">
-            {footerData.buttonText} <FaArrowRight className="arrow-icon" />
-          </button>
+    <>
+      {/* Horizontal line above the footer */}
+      <hr className="footer-top-line" />
 
-          <div className="social-icons">
-            {footerData.socialIcons.map((iconObj, index) => (
-              <div key={index} className="icon">
-                {iconMap[iconObj.icon]}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Right Column: Footer links */}
-        <div className="footer-links">
-          {footerData.footerLinks.map((col, colIndex) => (
-            <ul key={colIndex}>
-              {col.column.map((item, itemIndex) => (
-                <li key={itemIndex}>{item}</li>
-              ))}
-            </ul>
+      <footer className="footer-wrapper">
+        <ul className="footer-links-top">
+          {allLinks.map((link, index) => (
+            <li key={index}>{link}</li>
           ))}
+        </ul>
+
+        <div className="footer-description">
+          <p>{footerData.footerDescription}</p>
         </div>
-      </div>
 
-      {/* Footer Bottom: Description */}
-      <div className="footer-bottom">
-        <p>{footerData.footerDescription}</p>
-      </div>
+        <hr className="footer-divider" />
+      </footer>
 
-      {/* Attribution */}
-      <div className="footer-attribution">
-        <div>© 2025 SSCTC & Associates All Rights Reserved</div>
-        <div>
-          Website designed and managed by{" "}
+      {/* White full-width AXIOMOS section */}
+      <div className="footer-white-bar">
+        <p>
+          Website Designed & Maintained by{" "}
           <a
             href="https://axiomos.in/"
             target="_blank"
@@ -70,9 +39,9 @@ const Footer = () => {
           >
             AXIOMOS
           </a>
-        </div>
+        </p>
       </div>
-    </footer>
+    </>
   );
 };
 

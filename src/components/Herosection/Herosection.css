@@ -173,6 +173,7 @@ html, body {
 @media (max-width: 1024px) {
   .hero-container {
     height: 900px;
+   
   }
 
   .hero-text-overlay {
@@ -184,6 +185,7 @@ html, body {
 @media (max-width: 768px) {
   .hero-container {
     height: 700px;
+     padding-top: 80px;
   }
 
   .hero-text-overlay {

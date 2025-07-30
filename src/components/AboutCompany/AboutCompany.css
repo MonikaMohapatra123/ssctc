@@ -118,24 +118,22 @@
   margin-right: 30px;
 }
 
-.arrow {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  font-size: 12px;
+.call-button {
+  display: inline-block;
+  margin-top:2px;
+  padding: 20px 20px;
+  background-color: #d62828; /* deep red like Axiomos */
+  color: #fff;
+  text-decoration: none;
   font-weight: bold;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  
+  transition: background-color 0.3s ease;
 }
 
-.arrow:hover {
-  background: #eee;
+.call-button:hover {
+  background-color: #a61d1d;
 }
+
 
 /* Responsive */
 @media (max-width: 992px) {

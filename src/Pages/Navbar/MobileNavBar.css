@@ -2,6 +2,7 @@
   --white: #ffffff;
   --black: #000000;
   --red: #e63946;
+  --dark-bg: #292e36;
 }
 
 .MobileNavBarContainer {
@@ -9,8 +10,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black);
-  color: var(--black);
+  background-color: var(--dark-bg);
+  color: var(--white);
   z-index: 1100;
 }
 
@@ -18,25 +19,24 @@
 .MobileNavBarHeader {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* To place logo on left and hamburger on right */
-  padding: 20px 24px;
-  background-color: var(--white);
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: var(--dark-bg);
+  height: 60px;
   z-index: 1100;
   position: relative;
-  
 }
 
-/* --- OPTIONAL LOGO --- */
-.MobileLogoImage {
-  width: 50px;
+.MobileLogoImage img {
+  width: 110px;
   height: auto;
 }
 
-/* --- HAMBURGER WRAPPER ON RIGHT --- */
+/* --- RIGHT WRAPPER FOR MENU ICON --- */
 .MobileMenuWrapper {
   display: flex;
   justify-content: flex-end;
-  flex: 1;
+  align-items: center;
 }
 
 /* --- HAMBURGER ICON --- */
@@ -48,7 +48,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .MenuIconTransition {
@@ -65,12 +64,11 @@
 .MenuIconTransition .bar {
   width: 24px;
   height: 3px;
-  background-color: var(--black);
+  background-color: var(--white); /* white bars on dark bg */
   transition: transform 0.5s ease, opacity 0.5s ease;
   border-radius: 30px;
 }
 
-/* --- ICON ANIMATION WHEN OPEN --- */
 .MenuIconTransition.open .bar1 {
   transform: rotate(50deg);
   transform-origin: top left;
@@ -90,14 +88,14 @@
   width: 28px;
 }
 
-/* --- MOBILE MENU SLIDE PANEL --- */
+/* --- SLIDING MOBILE MENU PANEL --- */
 .MobileNavBarList {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--white);
+  background-color: var(--dark-bg);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,8 +106,8 @@
   transition: transform 0.7s ease, opacity 0.7s ease, visibility 0.7s ease;
   list-style: none;
   margin: 0;
+  margin-top: 60px; /* Push below the header */
   z-index: 1000;
-  margin-top: 4rem;
 }
 
 .MobileNavBarList.show {
@@ -120,7 +118,6 @@
 
 /* --- MAIN ITEMS --- */
 .MobileNavBarItem {
-  margin: 0;
   width: 100%;
   padding: 10px 30px;
   position: relative;
@@ -128,7 +125,7 @@
 
 .MobileNavBarLink,
 .MobileNavBarLinkWithIcon {
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
@@ -142,6 +139,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .MobileMenuIcon-ChevronIcon {
@@ -162,7 +160,7 @@
   align-items: flex-start;
   list-style-type: none;
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--dark-bg);
   padding-left: 20px;
   margin: 0;
 }
@@ -179,7 +177,7 @@
 }
 
 .MobileSubMenuLink {
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
   font-size: 13px;
   padding: 8px 0;
@@ -201,7 +199,7 @@
   left: 0;
   width: 70%;
   height: 1px;
-  background-color: #cecece;
+  background-color: #444;
 }
 
 .MobileNavBarItem:last-child::after,

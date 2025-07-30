@@ -1,5 +1,4 @@
 
-
 import React, { useEffect, useState } from "react";
 import HeroSection from "../../components/Herosection/HeroSection";
 import AboutCompany from "../../components/AboutCompany/AboutCompany";

@@ -1,3 +1,5 @@
+
+
 .about-us-section {
   background-size: cover;
   background-position: center;
@@ -7,6 +9,7 @@
   justify-content: center;
   position: relative;
   margin-top: 110px;
+ 
 }
 
 .about-us-overlay {

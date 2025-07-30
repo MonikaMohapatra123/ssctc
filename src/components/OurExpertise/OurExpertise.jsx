@@ -41,6 +41,7 @@ const OurExpertise = ({ expertiseData }) => {
           ))}
         </div>
 
+        {/* Arrows below on the left */}
         <div className="arrow-container">
           <button className="arrow left" onClick={() => scroll("left")}>
             <FaChevronLeft />

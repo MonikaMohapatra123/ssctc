@@ -17,16 +17,7 @@
           }
         ]
       },
-      {
-        "name": "Projects",
-        "link": "/projects",
-        "submenu": [
-          {
-            "name": "Thermal Ppwer",
-            "link": "/Thermal"
-          }
-        ]
-      },
+      
       {
         "name": "Equipments",
         "link": "/Equipments"
@@ -36,8 +27,8 @@
         "link": "/Certificates"
       },
       {
-        "name": "Why Work With Us",
-        "link": "/Why Us"
+        "name": "Contact Us",
+        "link": "/Contact Us"
       }
     ]
   },
@@ -45,77 +36,94 @@
     "page": "Home",
     "Herosection": [
       {
-        "image": "/road-3.jpg",
+        "image": "/CT-Assesment.jpg",
         "heading": "CT Assessment",
         "description": "Study of cooling tower thermal design, fan curves, operating duty point, performance curves, nozzle and duct sizing and present performance to predicted performance. In house and international computer programmes to check ratings of cooling tower."
       },
       {
-        "image": "/road-4.jpg",
+        "image": "/CT-Site-Data-Verification.jpg",
         "heading": "CT Site Data Verification",
         "description": "Site visits, physical observation of critical parameters, critical components like CT fan, Nozzles, CT Fills, CT layout and other possible causes of loss of performance. Site operating conditions vs cooling tower design considerations. Data collections at site using latest equipment."
       },
       {
-        "image": "/road-5.jpg",
+        "image": "/CT-Performance-Testing.jpeg",
         "heading": "CT Performance Testing",
         "description": "We carry out PG test for cooling towers as per CTI ATC 105 to verify the performance of New or Existing cooling towers to verify the capability of the towers. This includes data to be collected as per performance test method CTI ATC 105 and additional data like air velocity and temperatures contours above drift eliminators, fan air flow measurement, inlet air velocity contours, recirculation patterns."
       },
       {
-        "image": "/road-6.jpg",
+        "image": "/CT-Performance-Upgrade-Solutions.jpeg",
         "heading": "CT Performance Upgrade Solutions",
         "description": "We provide total solutions to cooling tower performance shortfall. From collecting and analysing Data to provide solutions in the form of change of components, improving existing components and providing experienced agency to carry out the work successfully."
       },
       {
-        "image": "/road-7.jpg",
-        "heading": "CT Seminars And Training Cooling Tower Seminars And Training",
-        "description": "We carry out PG test for cooling towers as per CTI ATC 105 to verify the performance of New or Existing cooling towers to verify the capability of the towers. This includes data to be collected as per performance test method CTI ATC 105 and additional data like air velocity and temperatures contours above drift eliminators, fan air flow measurement, inlet air velocity contours, recirculation patterns."
+        "image": "/CT-Seminars-And-Training.jpg",
+        "heading": "CT Seminars And Training ",
+        "description": "We can provide Seminars on Various aspects of cooling towers from Design to operation to latest trends in industry and factors affecting performance of towers, various types of Fills and their suitability. Environment considerations, operational considerations and efficiency considerations."
       },
       {
-        "image": "/road-15.jpeg",
+        "image": "/CT-Bid-Specifications-And-Bid-Reviews.jpg",
         "heading": "CT Bid Specifications And Bid Reviews",
-        "description": "We carry out PG test for cooling towers as per CTI ATC 105 to verify the performance of New or Existing cooling towers to verify the capability of the towers. This includes data to be collected as per performance test method CTI ATC 105 and additional data like air velocity and temperatures contours above drift eliminators, fan air flow measurement, inlet air velocity contours, recirculation patterns."
+        "description": "We can assist in creating suitable specification for the cooling towers and also review technically the bids so as to provide the most optimum and technically correct cooling tower Bid."
       },
       {
-        "image": "/road-17.jpeg",
-        "heading": "Water Flow Testing",
-        "description": "We can provide services for measurement of water flow using either ultrasonic flow meter or traversing pitot tube."
+        "image": "/Proof-Testing-Of-Fill-Media.jpeg",
+        "heading": "Proof Testing Of Fill Media",
+        "description": "We can assist in arranging of testing of fills in highly reputed 3rd party laboratory so that the fill and its performance are tested and documented in a sophisticated and highly accurate laboratory."
+      },
+      {
+        "image":"/Water-Flow-Testing.jpeg",
+        "heading":"Water Flow Testing",
+        "description":"We can provide services for measurement of water flow using either ultrasonic flow meter or traversing pitot tube."
+
       }
     ],
   "AboutCompany": {
-  "mainHeading": "SSCTC – Leading the Future of Cooling Technology",
-  "subHeading": "SSCTC is committed to delivering high-performance, energy-efficient, and eco-friendly cooling solutions across industries through continuous innovation and engineering excellence.",
+  "mainHeading": "Discover the “Effective Method” to Improve Cooling Tower Performance",
+  "subHeading": "Every cooling tower is different and operates in response to a set of conditions based on its design capability. Identify, Isolate & Introduce components to Improve cooling tower performance with a clear understanding of boundaries of the existing cooling tower.",
   "cards": [
     {
-      "title": "Induced Draft Counter Flow Cooling Towers",
-      "description": "Our Induced Draft Counter Flow Cooling Towers are engineered for optimal thermal performance. With upward air movement via powerful fans and downward hot water flow, they ensure efficient heat transfer and compact, space-saving installation for both industrial and HVAC systems.",
-      "image": "road-7.jpg"
+      "title": "Reliance Power for their plant at ROSA",
+      "description": "Thermal Upgrade of 1 no Cooling tower consisting of 12 cells having a capacity of 39000 m3/hr of 12 cells at Reliance Power Rosa through Messrs. MM Aqua was carried out and Guaranteed improvement in cold water temperature was achieved and proved after carrying out thermal testing.",
+      "image": "/Reliance Power for their plant at ROSA.jpeg"
     },
     {
-      "title": "Fanless Fill-less Cooling Towers",
-      "description": "SSCTC's Fanless Fill-less Cooling Towers offer a revolutionary cooling solution without mechanical fans or fill media. Ideal for dusty or harsh environments, they deliver reliable performance with minimal maintenance and reduced energy consumption.",
-      "image": "road-6.jpg"
+      "title": "Abuja Cement – Unit - Maratha Cement Plant at Chandrapur District in Maharashtra Thermal Upgrade of Cooling Tower through Messrs. MM Aqua.",
+      "description": "Thermal upgrade was successfully carried out on 2 cells Thermal testing was carried out and the guarantees in cold water improvement were achieved and solution to fouling was provided.",
+      "image": "/Abuja Cement.jpeg"
     },
     {
-      "title": "Customized Cooling Solutions",
-      "description": "We provide fully customized cooling tower solutions tailored to your industry's unique demands — from capacity and materials to design and environmental compliance — ensuring maximum efficiency and longevity.",
-      "image": "road-5.jpg"
+      "title": "Utam Galva Metallics Ltd – Wardha.",
+      "description": "Thermal testing was carried out to assess the present tower performance and reason for shortfall. Accordingly, report was prepared indicating the actual design condition vs present performance, Design rating of the tower, physical observations, major reasons for nonperformance and methods and procedure to improve performance. The tower consisted of 4 cells of counter flow IDCT with film fill.",
+      "image": "/Utam Galva Metallics Ltd.jpeg"
     },
     {
-      "title": "Sustainable and Energy-Efficient Designs",
-      "description": "SSCTC designs every product with sustainability in mind. Our cooling towers reduce carbon footprint, save energy, and support green building initiatives, making them the preferred choice for modern industries.",
-      "image": "road-4.jpg"
+      "title": "UPL limited Ankleshwar ",
+      "description": "A total of 16 towers were tested and compete ratings design vs present rating were presented. Report was submitted indicating the reasons for nonperformance and ways and means to improve the tower. In some towers the fills were changed as per recommendations and the tower performance and clogging which was previously observed were drastically reduced.",
+      "image": "/UPL limited Ankleshwar.jpeg"
     },
     {
-      "title": "Nationwide Service and Support Network",
-      "description": "With a strong service network and expert technical support, SSCTC ensures timely installation, maintenance, and troubleshooting across the country — keeping your operations running smoothly 24/7.",
-      "image": "road-3.jpg"
+      "title": "JORD INDUSTRIES - UAE DUBAI ",
+      "description": "UAE DUBAI for the cooling towers catering to EMAR-BHURJ KHALIFA. A total of 6 cells were tested and the capacity of each tower was established along with the actual design capacity of the tower. The reason for major shortfall in the towers were identified and report was handed over to EMAR through JORD INDUSTRIES. There were major problems with the water distribution, which was identified, and accordingly suitable nozzle sizing was varied to suit the existing condition. Similarly, fan performance issues have been pointed out and action would be taken shortly.",
+      "image": "/JORD INDUSTRIES - UAE DUBAI.jpeg"
+    },
+    {
+      "title":"Reliance Power Butibori",
+      "description":"Thermal upgrade was successfully carried out on 2 cells through Messrs. MM Aqua and the guarantees in cold water improvement were achieved. Performance test was carried out both pre and post improvement.",
+      "image":"/Reliance Power Butibori.jpeg"
+
+    },
+    {
+      "title":"ACC Chanda",
+      "description":"Thermal upgrade was successfully carried out on 2 cell towers through Messrs. MM Aqua and guarantees in cold water improvement were achieved. Both pre and post thermal upgrade test was carried out.",
+       "image":"/ACC Chanda.jpeg"
     }
   ]
 }
 ,
     "CompanyHighlights": {
-      "image": "project-1.png",
-      "subheading": "TAKE YOUR BUSINESS TO WHERE IT’S NEVER BEEN.",
-      "heading": "When you look beyond the obvious, you see things others don't. This is how we approach every challenge, helping us guide our clients to a destination they thought was beyond reach.",
+      "image": "/why us..jpeg",
+      "subheading": "HOW WE MAKE A DIFFERENCE?",
+      "heading": "We make a difference as we approach the problem differently, from the standard process that is the general rule. we identify the root cause of the problem.This requires excellence and experience in the field of Thermal Design, Performance testing, latest component know how, highly accurate testing equipment, past experience in this field of Cooling Towers.",
       "buttonText": "Go there. Start here."
     },
    "JoinOurTeam": {
@@ -126,31 +134,39 @@
 },
 
     "UpcomingEvents": [
-      {
-        "type": "SEMINAR",
-        "date": "JUL 24",
-        "image": "road-11.jpg",
-        "title": "Looking ahead: Financial strategy and foresight in life sciences"
-      },
-      {
-        "type": "CONFERENCE",
-        "date": "JUL 26",
-        "image": "road-12.jpg",
-        "title": "NACUBO 2025 Annual Meeting"
-      },
-      {
-        "type": "WEBINAR",
-        "date": "JUL 30",
-        "image": "road-13.webp",
-        "title": "Powering up public plans: What every government and not-for-profit sponsor needs to know"
-      },
-      {
-        "type": "WEBINAR",
-        "date": "AUG 14",
-        "image": "road-16.webp",
-        "title": "Beyond the build: Strategic success in Costpoint implementations"
-      }
-    ],
+  {
+    "title": "NTPC SOLAPUR 2 x 660MW SUPER THERMAL POWER PLANT",
+    "description": "The cooling tower testing was carried out on 5th September 2019 for ENEXIO. The cooling tower consists of 12 working cells in back to back configuration and has Design water flow of 36000 m3/hr per cell.",
+    "image": "road-11.jpg",
+    "date": "2019-09-05"
+  },
+  {
+    "title": "BALCO KORBA 4 X 135 MW CPP 2",
+    "description": "The cooling tower testing was carried out on 12h and 13th JULY 2019. The test was conducted to find out the present capacity of the cooling tower, upgradable potential of the cooling tower and ways and means to improve the cooling tower performance and was part of a Pre thermal upgrade Test. The cooling tower consists of 5 cells in line configuration and has water flow of 4020 m3/hr per cell.",
+    "image": "road-12.jpg",
+    "date": "2019-07-13"
+  },
+  {
+    "title": "RELIANCE INDUSTRIES, ISBL REFINERY, PTA-5 DAHEJ",
+    "description": " Testing was carried on 17 April 2017 on 2 cooling towers through SPIG, the total number of cells per cooling towers was 15+1 in back to back configuration and the cooling tower flow per cell was 3400 m3/hr.",
+    "image": "road-13.webp",
+    "date": "2017-04-17"
+  },
+  {
+    "title": "NTPC NABI NAGAR 3 x 660MW – BIHAR ",
+    "description": " Testing was carried out through Fans Asia for the induced draft cooling tower. The tower testing was carried out on November 2019. The total flow capacity of the tower was 36000 m3/hr and number of cells are 14 nos.",
+    "image": "road-16.webp",
+    "date": "2019-11-26"
+  },
+  {
+    "title":"Adani Mundra",
+    "description":" 4 cells of Upgraded Cooling towers with individual basin was tested for thermal performance in comparison to previous bench marked upgraded cells. The work was done for BRENTWOOD INDUSTRIES INDIA in the month of July 2019.",
+    "image":"/CT-Assesment.jpg",
+    "date": "2019-08-20"
+  }
+
+],
+
     "OurExpertise": {
   "mainHeading": "Our Industry Specialization",
   "subHeading": "Our years of experience across industries runs deep while we maintain a constant lookout for what's next. See what we deliver in your sector.",
@@ -169,6 +185,11 @@
       "title": "Financial Services",
       "description": "We help navigate complex vendor relationships and competition to determine efficient business strategies.",
       "image": "road-6.jpg"
+    },
+    {
+      "title": "Energy",
+      "description": "Energy consulting expertise where it matters — on the ground, in the grid and for the future.",
+      "image": "project-4.png"
     }
   ]
 },"AdvisorySection": {
@@ -201,47 +222,22 @@
   ,
   
   "2": {
-    "page": "Footer",
-    "id": "2",
-    "buttonText": "Subscribe to newsletters ",
-    "socialIcons": [
-      { "platform": "Facebook", "icon": "FaFacebookF" },
-      { "platform": "Instagram", "icon": "FaInstagram" },
-      { "platform": "LinkedIn", "icon": "FaLinkedinIn" },
-      { "platform": "YouTube", "icon": "FaYoutube" }
-    ],
-    "footerLinks": [
-      {
-        "column": [
-          "About Us",
-          "Locations",
-          "Insights"
-        ]
-      },
-      {
-        "column": [
-          "Careers",
-          "Industries",
-          "Legal & Privacy"
-        ]
-      },
-      {
-        "column": [
-          "Client Portals",
-          "Services",
-          "CCPA Privacy"
-        ]
-      },
-      {
-        "column": [
-          "Pay Invoice",
-          "Professionals",
-          "Contact Us"
-        ]
-      }
-    ],
-    "footerDescription": "Baker Tilly US, LLP and Baker Tilly Advisory Group, LP and its subsidiary entities provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. © 2025 Baker Tilly."
-  },
+  "page": "Footer",
+  "id": "2",
+  "footerLinks": [
+    {
+      "column": [
+        "Home",
+        "About Us",
+        "Equipments",
+        "Certificates",
+        "Contact Us"
+      ]
+    }
+  ],
+  "footerDescription": "Baker Tilly US, LLP and Baker Tilly Advisory Group, LP and its subsidiary entities provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. © 2025 Baker Tilly."
+}
+,
   "3": {
   "page": "AboutUs",
   "id": "3",

@@ -11,8 +11,8 @@ const CompanyHighlights = ({ highlightData }) => {
         <img src={image} alt="Modern Building" />
       </div>
       <div className="highlight-text">
-        <p className="highlight-subheading">{subheading}</p>
-        <h2 className="highlight-heading">{heading}</h2>
+        <h2 className="highlight-main-heading">{subheading}</h2>
+        <p className="highlight-subtext">{heading}</p>
         <button className="highlight-button">
           {buttonText} <FaArrowRight className="arrow-icon" />
         </button>

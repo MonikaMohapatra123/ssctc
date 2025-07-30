@@ -3,16 +3,17 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 80px 50px;
   background-color: #fff;
-  padding:80px 50px;
+  text-align: justify;
 }
 
 .highlight-image img {
   max-width: 100%;
   height: auto;
   width: 500px;
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .highlight-text {
@@ -20,22 +21,22 @@
   margin-left: 40px;
 }
 
-.highlight-subheading {
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #3a3a3a;
-  font-weight: 500;
-  margin-bottom: 20px;
+/* ✅ Subheading (MAIN Heading) */
+.highlight-main-heading {
+  font-size: 34px;
+  color: #111; /* darker */
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.highlight-heading {
-  font-size: 22px;
+/* ✅ Heading (Subtext) */
+.highlight-subtext {
+  font-size: 18px;
+  color: #555; /* slightly lighter */
   line-height: 1.6;
-  color: #1a1a1a;
   margin-bottom: 30px;
-  font-weight: 400;
 }
+
 .highlight-button {
   padding: 14px 24px;
   border: 1px solid #999;
@@ -56,17 +57,13 @@
 }
 
 .highlight-button:hover {
-  background-color: black;
+  background-color: #000;
   color: #fff;
 }
 
 .highlight-button:hover .arrow-icon {
-  transform: translateX(5px); /* moves arrow to the right */
+  transform: translateX(5px);
 }
-
-
-
-
 
 /* Tablet view (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -94,13 +91,12 @@
 
 /* Mobile view (max-width: 768px) */
 @media (max-width: 768px) {
-  .highlight-subheading {
-    font-size: 12px;
+  .highlight-main-heading {
+    font-size: 26px;
   }
 
-  .highlight-heading {
-    font-size: 18px;
-    line-height: 1.4;
+  .highlight-subtext {
+    font-size: 16px;
   }
 
   .highlight-button {
@@ -119,8 +115,12 @@
     padding: 40px 20px;
   }
 
-  .highlight-heading {
-    font-size: 16px;
+  .highlight-main-heading {
+    font-size: 22px;
+  }
+
+  .highlight-subtext {
+    font-size: 14px;
   }
 
   .highlight-button {

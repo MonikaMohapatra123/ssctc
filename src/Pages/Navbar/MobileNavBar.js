@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaPlus } from "react-icons/fa";
 import "./MobileNavBar.css";
-// import { getStoredData } from "../../json/fetchData";
- import  getStoredData  from "../../json/data.json";
-
+import getStoredData from "../../json/data.json";
 
 const MobileNavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,8 +11,7 @@ const MobileNavBar = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // const storedData = getStoredData();
-    const storedData = getStoredData; // ✅ use it as a constant, not a function
+    const storedData = getStoredData;
 
     if (storedData && storedData["0"]) {
       const localMenu = storedData["0"].menu;
@@ -67,18 +64,20 @@ const MobileNavBar = () => {
     return false;
   };
 
-  const storedLogo = getStoredData?.["0"]?.logo || "";
-  
-
   return (
     <nav className="MobileNavBarContainer">
       <div className="MobileNavBarHeader">
-     
-        <div className="MobileMenuIcon" onClick={toggleMenu}>
-          <div className={`MenuIconTransition ${menuOpen ? "open" : ""}`}>
-            <div className="bar bar1"></div>
-            <div className="bar bar2"></div>
-            <div className="bar bar3"></div>
+        <div className="MobileLogoImage">
+          <img src="/logo.png" alt="Logo" />
+        </div>
+
+        <div className="MobileMenuWrapper">
+          <div className="MobileMenuIcon" onClick={toggleMenu}>
+            <div className={`MenuIconTransition ${menuOpen ? "open" : ""}`}>
+              <div className="bar bar1"></div>
+              <div className="bar bar2"></div>
+              <div className="bar bar3"></div>
+            </div>
           </div>
         </div>
       </div>

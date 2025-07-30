@@ -64,7 +64,7 @@ const HeroSection = ({ herosectionData }) => {
                   {text}
                 </p>
               ))}
-              <button className="hero-cta-small-btn">Explore</button>
+              {/* <button className="hero-cta-small-btn">Explore</button> */}
             </div>
           </div>
         ))}
