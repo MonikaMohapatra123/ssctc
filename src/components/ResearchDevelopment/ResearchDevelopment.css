@@ -1,0 +1,43 @@
+.research-section {
+  background-color: #f9fbfd;
+  border: 1px solid #dbe4f3;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 1100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.research-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-left: 4px solid #1d4ed8;
+  padding-left: 12px;
+  margin-bottom: 24px;
+  background-color: rgb(142, 189, 233);
+}
+
+.research-icon {
+  color: #1d4ed8;
+  font-size: 24px;
+}
+
+.research-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d1d1d;
+}
+
+.research-list {
+  list-style: disc;
+  padding-left: 28px;
+}
+
+.research-item {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}

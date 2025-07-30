@@ -11,6 +11,7 @@ body {
   margin-bottom: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   overflow-x: hidden;
+  text-align: justify;
 }
 
 .events-title {
@@ -126,6 +127,31 @@ body {
 .view-all-btn:hover .arrow-icon {
   transform: translateX(5px);
 }
+@media (max-width: 480px) {
+  .event-card {
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .events-list {
+    gap: 15px; /* reduce gap for small screens */
+    padding: 0 10px;
+  }
+
+  .event-title {
+    font-size: 14px;
+  }
+
+  .event-description {
+    font-size: 13px;
+  }
+
+  .view-all-btn {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {

@@ -20,7 +20,7 @@
       
       {
         "name": "Equipments",
-        "link": "/Equipments"
+        "link": "/equipments"
       },
       {
         "name": "Certificates",
@@ -128,8 +128,8 @@
     },
    "JoinOurTeam": {
   "image": "project-2.png",
-  "subheading": "MEET OUR RECRUITING TEAM ON CAMPUS",
-  "heading": "Now, for tomorrow is our promise. Go there with us!",
+  "subheading": "PERFORMANCE GUARANTEE",
+  "heading": "We encourage client to go for Performance enhancement, based on performance guarantee provided by the ultimate component supplier.",
   "buttonText": "Discover why SSCTC is right for you"
 },
 
@@ -137,83 +137,116 @@
   {
     "title": "NTPC SOLAPUR 2 x 660MW SUPER THERMAL POWER PLANT",
     "description": "The cooling tower testing was carried out on 5th September 2019 for ENEXIO. The cooling tower consists of 12 working cells in back to back configuration and has Design water flow of 36000 m3/hr per cell.",
-    "image": "road-11.jpg",
+    "image": "/SUPER THERMAL POWER PLANT.jpeg",
     "date": "2019-09-05"
   },
   {
     "title": "BALCO KORBA 4 X 135 MW CPP 2",
     "description": "The cooling tower testing was carried out on 12h and 13th JULY 2019. The test was conducted to find out the present capacity of the cooling tower, upgradable potential of the cooling tower and ways and means to improve the cooling tower performance and was part of a Pre thermal upgrade Test. The cooling tower consists of 5 cells in line configuration and has water flow of 4020 m3/hr per cell.",
-    "image": "road-12.jpg",
+    "image": "/BALCO KORBA 4 X 135 MW CPP 2.jpeg",
     "date": "2019-07-13"
   },
   {
     "title": "RELIANCE INDUSTRIES, ISBL REFINERY, PTA-5 DAHEJ",
     "description": " Testing was carried on 17 April 2017 on 2 cooling towers through SPIG, the total number of cells per cooling towers was 15+1 in back to back configuration and the cooling tower flow per cell was 3400 m3/hr.",
-    "image": "road-13.webp",
+    "image": "/RELIANCE INDUSTRIES, ISBL REFINERY, PTA-5 DAHEJ.jpeg",
     "date": "2017-04-17"
   },
   {
     "title": "NTPC NABI NAGAR 3 x 660MW – BIHAR ",
     "description": " Testing was carried out through Fans Asia for the induced draft cooling tower. The tower testing was carried out on November 2019. The total flow capacity of the tower was 36000 m3/hr and number of cells are 14 nos.",
-    "image": "road-16.webp",
+    "image": "/NTPC NABI NAGAR 3 x 660MW – BIHAR.jpeg",
     "date": "2019-11-26"
   },
   {
     "title":"Adani Mundra",
     "description":" 4 cells of Upgraded Cooling towers with individual basin was tested for thermal performance in comparison to previous bench marked upgraded cells. The work was done for BRENTWOOD INDUSTRIES INDIA in the month of July 2019.",
-    "image":"/CT-Assesment.jpg",
+    "image":"/Adani Mundra.jpeg",
     "date": "2019-08-20"
   }
 
 ],
 
-    "OurExpertise": {
-  "mainHeading": "Our Industry Specialization",
-  "subHeading": "Our years of experience across industries runs deep while we maintain a constant lookout for what's next. See what we deliver in your sector.",
+  "OurExpertise": {
+  "mainHeading": "Our Services",
+  "subHeading": "More Than 35 Years Experience In Cooling Tower Design , Testing And Performance Improvement.",
   "cards": [
     {
-      "title": "Construction",
-      "description": "Our experienced construction experts help improve business through audit, tax and advisory services tailored to construction industry challenges.",
-      "image": "project-3.png"
+      "title": "CT Assessment",
+      "description": "Comprehensive analysis of cooling tower thermal design, including evaluation of fan performance curves, determination of the operating duty point, and interpretation of system performance curves. The study also involves optimization of nozzle configuration and duct sizing to ensure efficient operation. Comparison of actual (present) performance with predicted performance using both in-house and internationally recognized software tools for accurate performance rating and validation of cooling tower efficiency.",
+      "image": "/CT-Assesment.jpg"
     },
     {
-      "title": "Energy",
-      "description": "Energy consulting expertise where it matters — on the ground, in the grid and for the future.",
-      "image": "project-4.png"
+      "title": "CT Site Data Verification",
+      "description": "Detailed site inspections are conducted to assess the physical condition and performance of critical cooling tower components such as fans, nozzles, fills, and overall tower layout. Observations focus on identifying key factors contributing to performance loss. The evaluation includes a comparison between actual site operating conditions and the original cooling tower design specifications. Accurate data is gathered using advanced diagnostic tools and instruments to ensure reliable performance analysis and identify potential areas for improvement or retrofit.",
+      "image": "/CT-Site-Data-Verification.jpg"
     },
     {
-      "title": "Financial Services",
-      "description": "We help navigate complex vendor relationships and competition to determine efficient business strategies.",
-      "image": "road-6.jpg"
+      "title": "CT Performance Testing",
+      "description": "We conduct Performance Guarantee (PG) tests on new or existing cooling towers in accordance with CTI ATC 105 guidelines to verify their thermal performance and operational capability. The testing process involves precise data collection as specified by CTI ATC 105, along with additional critical parameters such as air velocity profiles, temperature contours above drift eliminators, fan airflow measurements, inlet air velocity distributions, and recirculation pattern analysis. These detailed assessments ensure accurate evaluation of the cooling tower's actual performance against its design specifications.",
+      "image": "/CT-Performance-Testing.jpeg"
     },
     {
-      "title": "Energy",
-      "description": "Energy consulting expertise where it matters — on the ground, in the grid and for the future.",
-      "image": "project-4.png"
+      "title": "CT Performance Upgrade Solutions",
+      "description": "We offer comprehensive solutions to address cooling tower performance shortfalls. Our approach begins with detailed data collection and analysis to accurately diagnose the root causes of underperformance. Based on the findings, we recommend targeted solutions, which may include upgrading or replacing critical components, enhancing the efficiency of existing systems, and deploying experienced and skilled agencies to execute the required modifications effectively—ensuring reliable and improved cooling tower performance.",
+      "image": "/CT-Performance-Upgrade-Solutions.jpeg"
+    },
+    {
+      "title": "CT Seminars And Training",
+      "description": "We offer expert-led seminars covering a wide range of topics related to cooling towers—from fundamental design principles to operational best practices and emerging trends in the industry. Our sessions include in-depth discussions on performance-influencing factors, selection and suitability of various types of fills, and key considerations related to environment, efficiency, and long-term operation. These knowledge-sharing programs are ideal for engineers, operators, and industry professionals aiming to enhance their understanding and improve tower performance.",
+      "image": "/CT-Seminars-And-Training.jpg"
+    },
+    {
+      "title": "CT Bid Specifications And Bid Reviews",
+      "description": "We provide expert support in drafting accurate and practical specifications for cooling towers, tailored to the specific project requirements. Our team also offers thorough technical review of vendor bids to ensure the selection of the most optimal and technically compliant solution. This ensures that clients receive a cost-effective, high-performance cooling tower system aligned with industry standards and operational needs.",
+      "image": "/CT-Bid-Specifications-And-Bid-Reviews.jpg"
+    },
+    {
+      "title": "Proof Testing Of Fill Media",
+      "description": "We offer assistance in organizing independent testing of cooling tower fills through highly reputed third-party laboratories. These tests ensure that the fill materials meet performance and quality standards, with all results thoroughly documented using advanced, precise testing methods in a professional lab environment.",
+      "image": "/Proof-Testing-Of-Fill-Media.jpeg"
+    },
+    {
+      "title": "CT Performance Upgrade Solutions",
+      "description": "We can provide services for measurement of water flow using either ultrasonic flow meter or traversing pitot tube.",
+      "image": "/Water-Flow-Testing.jpeg"
     }
   ]
 },"AdvisorySection": {
-  "headingLeft": "Leading\nadvisory, tax\nand assurance\nfirm",
-  "descriptionRight": "Baker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world’s leading financial centers – New York, London, San Francisco, Los Angeles, Chicago and Boston.",
+  "headingLeft": "WHY WORK WITH US",
+  "descriptionRight": "More Than 35 Years Experience In Cooling Tower Design , Testing And Performance Improvement.",
   "cards": [
     {
       "id": 1,
-      "full": "Assurance",
-      "title": "Assurance",
-      "description": "Baker Tilly pairs deep industry knowledge with service specialization to deliver high quality accounting and assurance services."
+      "full": "Root cause Analysis",
+      "title": "Root cause Analysis",
+      "description": "This type of analysis is comparatively new in our country since the standard procedure to solve underperformance was replacement of clogged fills or change the fan or nozzle randomly without analysis of the design and the existing performance."
     },
     {
       "id": 2,
-      "full": "Consulting",
-      "title": "Consulting",
-      "description": "Address challenges and uncover opportunities with consultants focused on protecting and enhancing your value."
+      "full": "Integrated approach",
+      "title": "Integrated approach",
+      "description": "It is different since we associate performance of one component with the other and hence integrate to get the most suitable solution. For eg changing a fill type changes the design pressure drop in the system and hence fan operating characteristics would change. Hence review of fan system along with the proposed change of fill is the new way of looking at things."
     },
     {
       "id": 3,
-      "full": "Tax",
-      "title": "Tax",
-      "description": "Contributing to clients’ success by accelerating tax deductions, increasing tax credits, reducing cash taxes and mitigating risks."
+      "full": "One point responsibility as a third party",
+      "title": "One point responsibility as a third party",
+      "description": "As per existing we have either manufacturer of cooling tower or component suppliers who have supplied these equipment who generally cater to the replacement requirement. They may be OEM or component suppliers . Hence the solution is always brand based or make based. We do an analysis ourselves as a complete 3rd party and suggest a solution including component without naming a manufacturer but mentioning the type of component required from the open market."
+    },
+    {
+      "id": 4,
+      "full": "Performance Guarantee",
+      "title": "Performance Guarantee",
+      "description": "We encourage client to go for Performance enhancement, based on performance guarantee provided by the ultimate component supplier."
+    },
+    {
+      "id": 5,
+      "full": "Provide Single Source expertise",
+      "title": "Provide Single Source expertise",
+      "description": "Suggest Suitable and capable service providers and component providers – We have assessed and have an understanding of the vendors providing these services and based on our assessment and experience we can suggest to you suitable vendors for the performance upgrades."
     }
+    
   ]
 }
 
@@ -235,7 +268,7 @@
       ]
     }
   ],
-  "footerDescription": "Baker Tilly US, LLP and Baker Tilly Advisory Group, LP and its subsidiary entities provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. © 2025 Baker Tilly."
+  "footerDescription": "SSCTC Cooling Towers is a trusted name in industrial cooling solutions, offering expert services in design, manufacturing, and maintenance of high-performance cooling towers. With a commitment to innovation, quality, and energy efficiency, we cater to diverse sectors including power, petrochemical, HVAC, and manufacturing industries. Our team of experienced engineers ensures each project meets the highest technical standards, delivering long-term performance and reliability. ©2025, SS Cooling Tower India"
 }
 ,
   "3": {
@@ -243,9 +276,146 @@
   "id": "3",
   "heading": "About Us",
   "backgroundImage": "/project-4.png",
-  "description": "We are a top ten advisory tax and assurance firm dedicated to customized business solutions that generate and sustain growth. We lead with purpose, and we walk with you every step along your journey."
+  "description": "We specialize in advanced cooling tower solutions, delivering reliable performance, energy efficiency, and long-term durability.",
+  "researchDevelopment": {
+      "sectionTitle": "Research & Development, Qualification, Registrations & Awards",
+      "items": [
+        "CO AUTHOR FOR “COOLING TOWER INSTITUTE PAPER TP 16-13” Presented at the CTI Conference winter 2016 at HOUSTON USA. “CFD ANALYSIS OF RECIRCULATION IN MECHANICAL DRAFT COOLING TOWERS”.",
+        "Developed multi nozzle test rig in Mumbai - India for testing “nozzle head vs flow”, “head vs spread” and “density of flow” for a project owned by NUCLEAR POWER CORPORATION.",
+        "Key contribution in developing single stage nozzle test rig in Chennai for assessing nozzle characteristics for NPCIL Project, year 2006 Nuclear Power Corporation as per client requirements.",
+        "Developed wet cooling tower selection program in “Visual Basic” for predicting the performance of Counter Flow Mechanical (Induced draft) cooling tower using fills both splash and film, using EPRI, Fulkerson and other tested data results.",
+        "Developed Program for generating cooling tower “Performance Curves as per CTI – ATC -105”.",
+        "Coordinated with Dr Kruger (University of Stellenbosch – South Africa) for “V” bar thermal performance evaluation in Counter flow Cooling Tower. (empirical relation for the mass transfer coefficient and pressure drop coefficient).",
+        "Worked on Scaled down model fan test at AMCA lab at Singapore to assess the fan performance and fan efficiency.",
+        "Successfully implemented thermal upgrade and performance improvement in various cooling towers in India and Abroad.",
+        "Article - EPR Magazine – FEB 19 – “Cooling Tower Thermal Performance Upgrades for Power Plants”."
+      ]
+    }
+},
+
+  "4": {
+    "id": "4",
+    "page": "Equipments",
+    "heading": "Our Equipments",
+    "backgroundImage": "/equipments-bg.jpg",
+    "description": "Explore our range of specialized equipment used for testing, measurement, and analysis in cooling tower systems.",
+    "equipments": [
+      {
+        "title": "Temperature Data Logger",
+        "subtitle": "Least Count 0.01",
+        "desc": "Short Sensor",
+        "count": "35"
+      },
+      {
+        "title": "Temperature Data Logger",
+        "subtitle": "Least Count 0.01 Deg C",
+        "desc": "Long Sensor",
+        "count": "5"
+      },
+      {
+        "title": "Automatic Psychrometer",
+        "subtitle": "Wet Bulb Instrument",
+        "desc": "Auto Data Logging, 0.01 Deg C",
+        "count": "12"
+      },
+      {
+        "title": "Temperature Meter",
+        "subtitle": "Hand Held",
+        "desc": "",
+        "count": "4"
+      },
+      {
+        "title": "Anemometer",
+        "subtitle": "Add Make",
+        "desc": "Extended Cable",
+        "count": "2"
+      },
+      {
+        "title": "Data Logging Anemometer",
+        "subtitle": "",
+        "desc": "",
+        "count": "1"
+      },
+      {
+        "title": "Water Flow Meter",
+        "subtitle": "Ultrasonic",
+        "desc": "",
+        "count": "1"
+      },
+      {
+        "title": "Thermometers",
+        "subtitle": "Mercury in Glass",
+        "desc": "",
+        "count": "15"
+      },
+      {
+        "title": "Sling Type Psychometric Manual",
+        "subtitle": "",
+        "desc": "",
+        "count": "5"
+      },
+      {
+        "title": "Pitot Tube",
+        "subtitle": "For Air Flow Measurement",
+        "desc": "",
+        "count": "1"
+      },
+      {
+        "title": "Pitot Tube",
+        "subtitle": "For Water Flow Measurement",
+        "desc": "",
+        "count": "4"
+      },
+      {
+        "title": "Manometer",
+        "subtitle": "For Pitot Tube",
+        "desc": "",
+        "count": "4"
+      },
+      {
+        "title": "Power Meter",
+        "subtitle": "",
+        "desc": "",
+        "count": "1"
+      },
+      {
+        "title": "Special Static And Total Pressure Probes",
+        "subtitle": "With Manometers",
+        "desc": "1 Set",
+        "count": "1"
+      },
+      {
+        "title": "Anemometer",
+        "subtitle": "Handheld",
+        "desc": "",
+        "count": "1"
+      }
+    ]
+  },
+  
+  "5": [
+    {
+      "id": "5a",
+      "page": "Certificates",
+      "subtitle": "Certified Excellence",
+      "title": "ISO 9001:2015 Certification",
+      "image": "/project-1.png",
+      "reverse": false
+    },
+    {
+      "id": "5b",
+      "page": "Certificates",
+      "subtitle": "Quality & Reliability",
+      "title": "Government Approved Vendor",
+      "image": "/project-2.png",
+      "reverse": true
+    }
+  ]
 }
 
 
 
-}
+
+
+
+

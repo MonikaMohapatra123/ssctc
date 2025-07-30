@@ -1,0 +1,79 @@
+.equipments-page {
+  font-family: Arial, sans-serif;
+}
+.equipments-page h2{
+    text-align: center;
+    color: #007bff;
+    margin-top: 15px;
+}
+
+/* Hero Section */
+.equipments-hero {
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.equipments-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.equipments-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.equipments-hero p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Equipment Cards */
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  background-color: #f4f6f8;
+}
+
+.equipment-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.equipment-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.equipment-card h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.equipment-card p {
+  margin: 2px 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.equipment-card .count {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 6px;
+}

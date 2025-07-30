@@ -1,6 +1,7 @@
 .advisory-wrapper {
   background-color: #292e36;
   width: 100%;
+  text-align: justify;
 }
 
 .advisory-container {
@@ -40,7 +41,7 @@
   line-height: 1.8;
   color: white;
 }
-.card-section {
+/* .card-section {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -56,7 +57,27 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   margin-top: -80px;
+} */
+ .card-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #292e36;
+  padding: 60px 40px;
+  gap: 20px;
+  flex-wrap: nowrap; /* ❌ Stop wrapping */
+  overflow-x: auto;  /* ✅ Enable horizontal scroll if needed */
+  margin-right: 0;   /* ✅ Remove margin to avoid layout shift */
 }
+
+.card {
+  flex: 0 0 calc((100% - 80px) / 5); /* ✅ Make 5 cards fit in 1 row with 20px gaps */
+  background-color: white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: -80px;
+}
+
 .card-top {
   background-color: #00c8c8;
   height: 130px;
