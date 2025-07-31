@@ -1,12 +1,22 @@
 import React from "react";
 import "./Footer.css";
 import data from "../../json/data.json";
+import { Link } from "react-router-dom"; // For internal navigation
 
 const Footer = () => {
   const footerData = data["2"];
   if (!footerData) return null;
 
   const allLinks = footerData.footerLinks.flatMap((col) => col.column).slice(0, 5);
+
+  // Map text to routes
+  const routeMap = {
+    "Home": "/",
+    "About Us": "/about",
+    "Equipments": "/equipments",
+    "Certificates": "/certificates",
+    "Contact Us": "/contact",
+  };
 
   return (
     <>
@@ -15,8 +25,12 @@ const Footer = () => {
 
       <footer className="footer-wrapper">
         <ul className="footer-links-top">
-          {allLinks.map((link, index) => (
-            <li key={index}>{link}</li>
+          {allLinks.map((linkText, index) => (
+            <li key={index}>
+              <Link to={routeMap[linkText] || "/"} className="footer-link">
+                {linkText}
+              </Link>
+            </li>
           ))}
         </ul>
 

@@ -1,40 +1,34 @@
 import React from "react";
 import "./Experience.css";
 
+const Experience = ({ experienceData }) => {
+  if (!experienceData) return null;
 
-const Experience = () => {
+  const { title, consultant } = experienceData;
+
   return (
-    <div className="experience-section">
+    <section className="experience-section">
       <div className="experience-header">
-        <div className="icon">📊</div>
-        <h2>Experience</h2>
+        <span className="experience-icon">📊</span>
+        <h2>{title}</h2>
       </div>
-      <div className="experience-content">
-        <div className="experience-image">
-          <img src="sspic.png" alt="Mr. Suresh Sarma" />
-          <p className="consultant-name">Mr. Suresh Sarma (Primary Consultant)</p>
+
+      <div className="experience-card">
+        <div className="consultant-info">
+          <img src={consultant.image} alt={consultant.name} />
+          <p className="consultant-name">{consultant.name}</p>
+          <p className="consultant-role">({consultant.role})</p>
         </div>
+
         <div className="experience-details">
           <ul>
-            <li>
-              Experience 25+ years in Thermal Design, commissioning & performance
-              testing of IDCT & NDCT.
-            </li>
-            <li>
-              Thermal Design, Supervision, commissioning and testing of more than 50
-              Cooling Tower Projects.
-            </li>
-            <li>
-              Cooling Tower Guaranteed performance upgrades with guaranteed
-              cold-water improvement.
-            </li>
-            <li>
-              Major role in R&D of cooling towers and components.
-            </li>
+            {consultant.details.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

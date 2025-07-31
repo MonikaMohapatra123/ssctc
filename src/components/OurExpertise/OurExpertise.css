@@ -180,3 +180,24 @@
     margin-left: 20px;
   }
 }
+
+@media (max-width: 576px) {
+  .ourexpertise-card {
+    flex: 0 0 100%;
+    height: auto;
+  }
+
+  .ourexpertise-slider {
+    gap: 16px;
+    padding: 0 10px 10px;
+  }
+
+  .arrow-container {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .slider-wrapper {
+    padding: 0 10px;
+  }
+}

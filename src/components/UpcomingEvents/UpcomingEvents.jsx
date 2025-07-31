@@ -1,13 +1,11 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
 import "./UpcomingEvents.css";
 
 const UpcomingEvents = ({ events = [] }) => {
   if (!Array.isArray(events)) return null;
 
-  // Format date like "Jul 30, 2025"
   const formatDate = (dateStr) => {
-    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+    const options = { year: "numeric", month: "short", day: "numeric" };
     return new Date(dateStr).toLocaleDateString("en-US", options);
   };
 
@@ -28,12 +26,6 @@ const UpcomingEvents = ({ events = [] }) => {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="view-all-container">
-        <button className="view-all-btn">
-          View all events <FaArrowRight className="arrow-icon" />
-        </button>
       </div>
     </div>
   );

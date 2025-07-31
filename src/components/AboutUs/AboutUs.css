@@ -1,5 +1,3 @@
-
-
 .about-us-section {
   background-size: cover;
   background-position: center;
@@ -9,7 +7,7 @@
   justify-content: center;
   position: relative;
   margin-top: 110px;
- 
+  padding: 0 20px; /* Padding for smaller screens */
 }
 
 .about-us-overlay {
@@ -19,15 +17,48 @@
   text-align: left;
   max-width: 900px;
   width: 100%;
+  
 }
 
 .about-us-overlay h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .about-us-overlay p {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-us-section {
+    height: auto;
+    padding: 40px 20px;
+    margin-top:80px;
+  }
+
+  .about-us-overlay {
+    padding: 30px 20px;
+    border-radius: 12px;
+  }
+
+  .about-us-overlay h1 {
+    font-size: 2rem;
+  }
+
+  .about-us-overlay p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us-overlay h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-us-overlay p {
+    font-size: 0.95rem;
+  }
 }

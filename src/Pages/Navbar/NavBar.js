@@ -5,6 +5,7 @@ import "./NavBar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import navData from "../../json/data.json";
 import MobileNavBar from "./MobileNavBar";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -50,8 +51,9 @@ const NavBar = () => {
 
         <div className="nav-right">
           {/* <FaSearch className="icon search-icon" /> */}
-          <button className="contact-btn">Contact Us</button>
+         <Link to="/contact"> <button className="contact-btn">Contact Us</button></Link>
         </div>
+      
       </nav>
 
       {/* Slide-in Menu */}

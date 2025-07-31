@@ -10,7 +10,7 @@
 .footer-wrapper {
   background-color: #292e36;
   color: #ccc;
-  padding: 60px 40px 30px 40px; /* 🔺 More top/bottom padding */
+  padding: 60px 40px 30px 40px;
   font-family: "Segoe UI", sans-serif;
   width: 100%;
   box-sizing: border-box;
@@ -23,21 +23,25 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 50px; /* 🔺 Increased gap between links */
+  gap: 50px;
   padding-left: 0;
-  margin: 0 0 35px 0; /* 🔺 More margin below links */
+  margin: 0 0 35px 0;
   flex-wrap: wrap;
 }
 
 .footer-links-top li {
   font-size: 16px;
-  color: cyan;
-  cursor: pointer;
-  transition: color 0.3s ease;
   font-weight: 500;
 }
 
-.footer-links-top li:hover {
+/* ✅ Clickable links style */
+.footer-link {
+  color: cyan;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
   color: #00ffff;
   text-decoration: underline;
 }
@@ -47,7 +51,7 @@
   font-size: 15px;
   line-height: 1.8;
   max-width: 1000px;
-  margin: 0 auto 40px auto; /* 🔺 More space below */
+  margin: 0 auto 40px auto;
   color: #bbb;
 }
 
@@ -72,12 +76,12 @@
 .footer-white-bar .axiomos-link {
   font-weight: bold;
   text-decoration: none;
-  color: #8B0000; /* 🔴 Deep Red */
+  color: #8B0000;
   transition: color 0.3s ease;
 }
 
 .footer-white-bar .axiomos-link:hover {
-  color: #b30000; /* 🔴 Slightly brighter red on hover */
+  color: #b30000;
   text-decoration: underline;
 }
 
@@ -85,26 +89,21 @@
 .footer-wrapper,
 .footer-white-bar {
   width: 100%;
-  max-width: 100vw; /* ✅ Prevent overflow */
+  max-width: 100vw;
   overflow-x: hidden;
   box-sizing: border-box;
 }
 
-
-
 /* 🔻 Responsive adjustments */
 @media screen and (max-width: 768px) {
-
-
   .footer-wrapper {
-   
     text-align: left;
   }
 
   .footer-links-top {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px; 
+    gap: 16px;
     margin-bottom: 25px;
   }
 

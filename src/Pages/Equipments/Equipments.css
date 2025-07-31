@@ -1,79 +1,84 @@
 .equipments-page {
-  font-family: Arial, sans-serif;
-}
-.equipments-page h2{
-    text-align: center;
-    color: #007bff;
-    margin-top: 15px;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  margin-top: 20px;
 }
 
-/* Hero Section */
-.equipments-hero {
-  background-size: cover;
-  background-position: center;
-  padding: 80px 20px;
-  color: white;
-  position: relative;
-  text-align: center;
-}
-
-.equipments-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 40px 20px;
-  border-radius: 10px;
-  display: inline-block;
-}
-
-.equipments-hero h1 {
-  font-size: 36px;
+.equipments-overlay h1 {
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
-.equipments-hero p {
-  font-size: 16px;
-  max-width: 700px;
-  margin: 0 auto;
+.equipments-overlay p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Section Header */
+.equipments-section {
+  padding: 30px 15px;
+  background-color: #f9fafb;
+}
+
+.equipments-section h2 {
+  text-align: center;
+  color: #0056b3;
+  font-size: 22px;
+  margin-bottom: 25px;
 }
 
 /* Equipment Cards */
 .equipment-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 20px;
-  padding: 30px;
-  background-color: #f4f6f8;
+  gap: 16px;
+  padding: 0 10px;
 }
 
 .equipment-card {
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
+  border-radius: 8px;
+  padding: 12px;
   text-align: center;
-  transition: 0.3s;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e0e0e0;
+  min-height: 120px;
 }
 
 .equipment-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-icon {
+  font-size: 24px;
+  margin-bottom: 6px;
+  color: #007bff;
 }
 
 .equipment-card h4 {
-  font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #222;
 }
 
-.equipment-card p {
-  margin: 2px 0;
-  font-size: 13px;
-  color: #555;
+.equipment-card .subtitle {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 3px;
+}
+
+.equipment-card .desc {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
 }
 
 .equipment-card .count {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #007bff;
-  margin-top: 6px;
+  margin-top: 5px;
 }

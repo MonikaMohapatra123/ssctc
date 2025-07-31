@@ -9,13 +9,8 @@
       },
       {
         "name": "About",
-        "link": "/about",
-        "submenu": [
-          {
-            "name": "Leadership",
-            "link": "/leadership"
-          }
-        ]
+        "link": "/about"
+       
       },
       
       {
@@ -28,7 +23,7 @@
       },
       {
         "name": "Contact Us",
-        "link": "/Contact Us"
+        "link": "/contact"
       }
     ]
   },
@@ -121,7 +116,7 @@
 }
 ,
     "CompanyHighlights": {
-      "image": "/why us..jpeg",
+      "image": "/sspic.png",
       "subheading": "HOW WE MAKE A DIFFERENCE?",
       "heading": "We make a difference as we approach the problem differently, from the standard process that is the general rule. we identify the root cause of the problem.This requires excellence and experience in the field of Thermal Design, Performance testing, latest component know how, highly accurate testing equipment, past experience in this field of Cooling Towers.",
       "buttonText": "Go there. Start here."
@@ -272,12 +267,12 @@
 }
 ,
   "3": {
-  "page": "AboutUs",
-  "id": "3",
-  "heading": "About Us",
-  "backgroundImage": "/project-4.png",
-  "description": "We specialize in advanced cooling tower solutions, delivering reliable performance, energy efficiency, and long-term durability.",
-  "researchDevelopment": {
+    "page": "AboutUs",
+    "id": "3",
+    "heading": "About Us",
+    "backgroundImage": "/project-4.png",
+    "description": "We specialize in advanced cooling tower solutions, delivering reliable performance, energy efficiency, and long-term durability.",
+    "researchDevelopment": {
       "sectionTitle": "Research & Development, Qualification, Registrations & Awards",
       "items": [
         "CO AUTHOR FOR “COOLING TOWER INSTITUTE PAPER TP 16-13” Presented at the CTI Conference winter 2016 at HOUSTON USA. “CFD ANALYSIS OF RECIRCULATION IN MECHANICAL DRAFT COOLING TOWERS”.",
@@ -290,7 +285,22 @@
         "Successfully implemented thermal upgrade and performance improvement in various cooling towers in India and Abroad.",
         "Article - EPR Magazine – FEB 19 – “Cooling Tower Thermal Performance Upgrades for Power Plants”."
       ]
+    },
+    "experience": {
+      "title": "Our Expert Consultant",
+      "consultant": {
+        "name": "Mr. Suresh Sarma",
+        "role": "Primary Consultant",
+        "image": "sspic.png",
+        "details": [
+          "25+ years in Thermal Design, commissioning & performance testing of IDCT & NDCT.",
+          "Thermal Design, Supervision, commissioning and testing of 50+ Cooling Tower Projects.",
+          "Guaranteed performance upgrades with measurable cold-water improvements.",
+          "Major contributor in R&D of cooling towers and components."
+        ]
+      }
     }
+  
 },
 
   "4": {
@@ -393,7 +403,11 @@
     ]
   },
   
-  "5": [
+  "5": {
+  "heading": "Certificates",
+  "description": "We are proud to be recognized with industry certifications that validate our commitment to quality and standards.",
+    "backgroundImage": "/road-8.jpeg",
+  "certificates": [
     {
       "id": "5a",
       "page": "Certificates",
@@ -411,6 +425,15 @@
       "reverse": true
     }
   ]
+},
+"6":{
+  "page":"Contact",
+  "heading": "Contact Us",
+  "description": "We're here to assist you with your needs. Whether it's a service inquiry, partnership, or support, feel free to reach out. Our team is ready to help you every step of the way.",
+  "backgroundImage": "/road-8.jpeg"
+
+}
+
 }
 
 

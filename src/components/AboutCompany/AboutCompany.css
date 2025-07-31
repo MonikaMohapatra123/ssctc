@@ -3,7 +3,7 @@
   margin: 0 auto;
   background-color: #e0e0de;
   padding: 40px 0;
-  text-align: justify;
+ 
 }
 
 .aboutcompany-heading-container {
@@ -47,13 +47,14 @@
   color: #1a1d23;
   line-height: 1.6;
   max-width: 600px;
+  text-align: justify;
 }
 
 .call-button {
   display: inline-block;
   margin-top: 2px;
-  padding: 20px 20px;
-  background-color: #d62828;
+  padding: 10px 20px;
+  background-color: hsl(0, 93%, 34%);
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -176,5 +177,20 @@
 
   .arrow-container {
     justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .aboutcompany-card {
+    flex: 0 0 100%;
+  }
+
+  .aboutcompany-slider {
+    gap: 16px;
+    padding: 0 10px 10px;
+  }
+
+  .arrow-container {
+    justify-content: center;
+    padding-left: 0;
   }
 }

@@ -30,7 +30,7 @@ const AboutCompany = ({ aboutCompanyData }) => {
         <div>
           <p className="sub-heading">{aboutCompanyData.subHeading}</p>
           <a href="tel:+919987549712" className="call-button">
-            Call Us Now 
+            Call Us Now  
           </a>
         </div>
       </div>

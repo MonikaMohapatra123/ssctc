@@ -16,8 +16,8 @@ const About = () => {
   return (
     <>
       <AboutUs aboutData={data} />
-       <ResearchDevelopment researchDevelopment={data.researchDevelopment} />
-       <Experience/>
+      <ResearchDevelopment researchDevelopment={data.researchDevelopment} />
+      <Experience experienceData={data.experience} />
     </>
   );
 };
