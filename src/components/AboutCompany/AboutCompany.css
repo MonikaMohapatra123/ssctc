@@ -1,8 +1,9 @@
 .aboutcompany-wrapper {
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   background-color: #e0e0de;
   padding: 40px 0;
+  text-align: justify;
 }
 
 .aboutcompany-heading-container {
@@ -10,7 +11,7 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  max-width: calc(332px * 3 + 40px); /* 3 cards + gaps */
+  max-width: 1080px;
   margin: 0 auto 30px auto;
   gap: 40px;
 }
@@ -48,26 +49,39 @@
   max-width: 600px;
 }
 
-/* Card slider */
+.call-button {
+  display: inline-block;
+  margin-top: 2px;
+  padding: 20px 20px;
+  background-color: #d62828;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.call-button:hover {
+  background-color: #a61d1d;
+}
+
+/* Slider */
 .slider-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
   width: 100%;
-  max-width: calc(332px * 3 + 40px); /* 3 cards + 2 gaps */
+  max-width: 1080px;
   margin: 0 auto;
-  overflow: hidden; /* ✅ hides partial cards */
+  overflow: hidden;
 }
 
 .aboutcompany-slider {
   display: flex;
-  gap: 20px;
-  transition: scroll 0.5s ease;
-  scroll-behavior: smooth;
   width: 100%;
   overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
   scrollbar-width: none;
+  gap: 42px;
+  padding-bottom: 10px;
 }
 
 .aboutcompany-slider::-webkit-scrollbar {
@@ -75,14 +89,14 @@
 }
 
 .aboutcompany-card {
-  flex: 0 0 332px;
+  flex: 0 0 calc((100% - 84px) / 3); /* 3 full cards */
   height: 550px;
   background: #fff;
   border: 1px solid #ccc;
+  scroll-snap-align: start;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  scroll-snap-align: start;
 }
 
 .aboutcompany-card img {
@@ -106,34 +120,31 @@
   padding: 0 10px 10px;
 }
 
-/* Arrows */
+/* Arrows at bottom-left in a row */
 .arrow-container {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  margin-top: 20px;
-  position: absolute;
-  left: 0;
-  bottom: -40px;
-  margin-right: 30px;
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
-.call-button {
-  display: inline-block;
-  margin-top:2px;
-  padding: 20px 20px;
-  background-color: #d62828; /* deep red like Axiomos */
-  color: #fff;
-  text-decoration: none;
+.arrow {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
   font-weight: bold;
-  
-  transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+ 
 }
 
-.call-button:hover {
-  background-color: #a61d1d;
+.arrow:hover {
+  background: #eee;
 }
-
 
 /* Responsive */
 @media (max-width: 992px) {
@@ -154,14 +165,16 @@
     overflow-x: auto;
   }
 
+  .aboutcompany-slider {
+    gap: 20px;
+  }
+
   .aboutcompany-card {
-    flex: 0 0 100%;
+    flex: 0 0 80%;
     height: auto;
   }
 
   .arrow-container {
-    justify-content: space-around;
-    position: static;
-    margin-top: 10px;
+    justify-content: center;
   }
 }
