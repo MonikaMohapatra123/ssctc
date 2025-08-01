@@ -27,8 +27,7 @@ const Home = () => {
       <JoinOurTeam data={data.JoinOurTeam} />
       <OurExpertise expertiseData={data.OurExpertise} />
       <AdvisorySection data={data.AdvisorySection} />
-
-     
+      
     </>
   );
 };

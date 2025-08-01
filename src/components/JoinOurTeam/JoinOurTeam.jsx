@@ -1,15 +1,15 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { useNavigate } from "react-router-dom"; // 👈 Import this
+import { useNavigate } from "react-router-dom"; 
 import "./JoinOurTeam.css";
 
 const JoinOurTeam = ({ data }) => {
-  const navigate = useNavigate(); // 👈 Initialize navigate
+  const navigate = useNavigate(); 
 
   if (!data) return null;
 
   const handleClick = () => {
-    navigate("/about"); // 👈 Navigate to /about page
+    navigate("/about"); 
   };
 
   return (

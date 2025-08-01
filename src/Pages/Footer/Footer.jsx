@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import data from "../../json/data.json";
-import { Link } from "react-router-dom"; // For internal navigation
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const footerData = data["2"];
@@ -9,7 +9,6 @@ const Footer = () => {
 
   const allLinks = footerData.footerLinks.flatMap((col) => col.column).slice(0, 5);
 
-  // Map text to routes
   const routeMap = {
     "Home": "/",
     "About Us": "/about",
@@ -20,7 +19,6 @@ const Footer = () => {
 
   return (
     <>
-      {/* Horizontal line above the footer */}
       <hr className="footer-top-line" />
 
       <footer className="footer-wrapper">
@@ -38,10 +36,23 @@ const Footer = () => {
           <p>{footerData.footerDescription}</p>
         </div>
 
+        {/* 🔻 Company Address from JSON */}
+        {footerData.footerAddress && (
+          <div className="footer-address">
+            <p>
+              {footerData.footerAddress.split('\n').map((line, idx) => (
+                <React.Fragment key={idx}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
+            </p>
+          </div>
+        )}
+
         <hr className="footer-divider" />
       </footer>
 
-      {/* White full-width AXIOMOS section */}
       <div className="footer-white-bar">
         <p>
           Website Designed & Maintained by{" "}

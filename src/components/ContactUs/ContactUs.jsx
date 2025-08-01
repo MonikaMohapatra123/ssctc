@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./ContactUs.css";
 
 const ContactUs = () => {
@@ -15,17 +16,35 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Thank you for contacting us!");
-    setFormData({ name: "", email: "", subject: "", message: "" });
+
+    emailjs
+      .send(
+        "service_gnmqj7c", // Replace with your EmailJS service ID
+        "template_wk0zbfp", // Replace with your template ID
+        formData,
+        "cgB3q1Sht1gLfFiIA" // Replace with your public key
+      )
+      .then(
+        (result) => {
+          alert("✅ Message sent successfully!");
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: ""
+          });
+        },
+        (error) => {
+          alert("❌ Failed to send message. Please try again.");
+        }
+      );
   };
 
   return (
     <div className="contact-container">
       <div className="contact-card">
         <h2>Contact Us</h2>
-        <p>
-          We're here to help! Fill out the form and we’ll get back to you soon.
-        </p>
+        <p>We're here to help! Fill out the form and we’ll get back to you soon.</p>
         <form onSubmit={handleSubmit} className="contact-form">
           <div className="form-group">
             <input
@@ -52,6 +71,7 @@ const ContactUs = () => {
               type="text"
               name="subject"
               placeholder="Subject"
+              required
               value={formData.subject}
               onChange={handleChange}
             />

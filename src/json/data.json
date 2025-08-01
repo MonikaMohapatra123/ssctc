@@ -10,9 +10,7 @@
       {
         "name": "About",
         "link": "/about"
-       
       },
-      
       {
         "name": "Equipments",
         "link": "/equipments"
@@ -69,7 +67,6 @@
         "image":"/Water-Flow-Testing.jpeg",
         "heading":"Water Flow Testing",
         "description":"We can provide services for measurement of water flow using either ultrasonic flow meter or traversing pitot tube."
-
       }
     ],
   "AboutCompany": {
@@ -105,7 +102,6 @@
       "title":"Reliance Power Butibori",
       "description":"Thermal upgrade was successfully carried out on 2 cells through Messrs. MM Aqua and the guarantees in cold water improvement were achieved. Performance test was carried out both pre and post improvement.",
       "image":"/Reliance Power Butibori.jpeg"
-
     },
     {
       "title":"ACC Chanda",
@@ -122,12 +118,11 @@
       "buttonText": "Go there. Start here."
     },
    "JoinOurTeam": {
-  "image": "project-2.png",
+  "image": "/CT-Seminars-And-Training.jpg",
   "subheading": "PERFORMANCE GUARANTEE",
   "heading": "We encourage client to go for Performance enhancement, based on performance guarantee provided by the ultimate component supplier.",
   "buttonText": "Discover why SSCTC is right for you"
 },
-
     "UpcomingEvents": [
   {
     "title": "NTPC SOLAPUR 2 x 660MW SUPER THERMAL POWER PLANT",
@@ -159,16 +154,14 @@
     "image":"/Adani Mundra.jpeg",
     "date": "2019-08-20"
   }
-
 ],
-
   "OurExpertise": {
   "mainHeading": "Our Services",
   "subHeading": "More Than 35 Years Experience In Cooling Tower Design , Testing And Performance Improvement.",
   "cards": [
     {
       "title": "CT Assessment",
-      "description": "Comprehensive analysis of cooling tower thermal design, including evaluation of fan performance curves, determination of the operating duty point, and interpretation of system performance curves. The study also involves optimization of nozzle configuration and duct sizing to ensure efficient operation. Comparison of actual (present) performance with predicted performance using both in-house and internationally recognized software tools for accurate performance rating and validation of cooling tower efficiency.",
+      "description": "Comprehensive thermal design analysis of the cooling tower includes evaluation of fan performance curves, operating duty point, and system performance interpretation. It also optimizes nozzle configuration and duct sizing for efficiency. Actual performance is compared with predicted results using in-house and international software tools to validate cooling tower efficiency.",
       "image": "/CT-Assesment.jpg"
     },
     {
@@ -244,12 +237,10 @@
     
   ]
 }
-
-
   }
   ,
   
-  "2": {
+ "2": {
   "page": "Footer",
   "id": "2",
   "footerLinks": [
@@ -263,14 +254,16 @@
       ]
     }
   ],
-  "footerDescription": "SSCTC Cooling Towers is a trusted name in industrial cooling solutions, offering expert services in design, manufacturing, and maintenance of high-performance cooling towers. With a commitment to innovation, quality, and energy efficiency, we cater to diverse sectors including power, petrochemical, HVAC, and manufacturing industries. Our team of experienced engineers ensures each project meets the highest technical standards, delivering long-term performance and reliability. ©2025, SS Cooling Tower India"
+  "footerDescription": "SSCTC Cooling Towers is a trusted name in industrial cooling solutions, offering expert services in design, manufacturing, and maintenance of high-performance cooling towers. With a commitment to innovation, quality, and energy efficiency, we cater to diverse sectors including power, petrochemical, HVAC, and manufacturing industries. Our team of experienced engineers ensures each project meets the highest technical standards, delivering long-term performance and reliability. ©2025, SS Cooling Tower India",
+  "footerAddress": "SSCTC Cooling Towers Pvt. Ltd.,\nPlot No. 123, Industrial Estate,\n Pune 411012 - Maharashtra,India.\nPhone: +91 9987549712 | Email: info@ssctc.in"
 }
+
 ,
   "3": {
     "page": "AboutUs",
     "id": "3",
     "heading": "About Us",
-    "backgroundImage": "/project-4.png",
+    "backgroundImage": "/CT-Performance-Upgrade-Solutions.jpeg",
     "description": "We specialize in advanced cooling tower solutions, delivering reliable performance, energy efficiency, and long-term durability.",
     "researchDevelopment": {
       "sectionTitle": "Research & Development, Qualification, Registrations & Awards",
@@ -303,106 +296,108 @@
   
 },
 
+ 
   "4": {
     "id": "4",
     "page": "Equipments",
     "heading": "Our Equipments",
-    "backgroundImage": "/equipments-bg.jpg",
+    "backgroundImage": "/road-7.jpg",
     "description": "Explore our range of specialized equipment used for testing, measurement, and analysis in cooling tower systems.",
     "equipments": [
       {
         "title": "Temperature Data Logger",
         "subtitle": "Least Count 0.01",
-        "desc": "Short Sensor",
+        "desc": "Used for accurate temperature recording with short sensor probes for confined spaces.",
         "count": "35"
       },
       {
         "title": "Temperature Data Logger",
         "subtitle": "Least Count 0.01 Deg C",
-        "desc": "Long Sensor",
+        "desc": "Ideal for remote areas, this version comes with a long sensor probe.",
         "count": "5"
       },
       {
         "title": "Automatic Psychrometer",
         "subtitle": "Wet Bulb Instrument",
-        "desc": "Auto Data Logging, 0.01 Deg C",
+        "desc": "Automatically records wet bulb temperatures with high precision (0.01°C).",
         "count": "12"
       },
       {
         "title": "Temperature Meter",
         "subtitle": "Hand Held",
-        "desc": "",
+        "desc": "Portable and easy-to-use device for instant temperature checks.",
         "count": "4"
       },
       {
         "title": "Anemometer",
         "subtitle": "Add Make",
-        "desc": "Extended Cable",
+        "desc": "Comes with extended cable for airflow measurement in tall towers.",
         "count": "2"
       },
       {
         "title": "Data Logging Anemometer",
         "subtitle": "",
-        "desc": "",
+        "desc": "Records airflow data over time for later analysis.",
         "count": "1"
       },
       {
         "title": "Water Flow Meter",
         "subtitle": "Ultrasonic",
-        "desc": "",
+        "desc": "Non-intrusive meter for precise measurement of water flow.",
         "count": "1"
       },
       {
         "title": "Thermometers",
         "subtitle": "Mercury in Glass",
-        "desc": "",
+        "desc": "Traditional high-accuracy thermometers for manual readings.",
         "count": "15"
       },
       {
         "title": "Sling Type Psychometric Manual",
         "subtitle": "",
-        "desc": "",
+        "desc": "Manual psychrometer for field measurement of relative humidity.",
         "count": "5"
       },
       {
         "title": "Pitot Tube",
         "subtitle": "For Air Flow Measurement",
-        "desc": "",
+        "desc": "Measures dynamic pressure to determine air velocity.",
         "count": "1"
       },
       {
         "title": "Pitot Tube",
         "subtitle": "For Water Flow Measurement",
-        "desc": "",
+        "desc": "Used to measure flow rate in pipelines using differential pressure.",
         "count": "4"
       },
       {
         "title": "Manometer",
         "subtitle": "For Pitot Tube",
-        "desc": "",
+        "desc": "Reads pressure difference from Pitot tube readings.",
         "count": "4"
       },
       {
         "title": "Power Meter",
         "subtitle": "",
-        "desc": "",
+        "desc": "Measures energy consumption and electrical parameters of the cooling system.",
         "count": "1"
       },
       {
         "title": "Special Static And Total Pressure Probes",
         "subtitle": "With Manometers",
-        "desc": "1 Set",
+        "desc": "Set includes specialized probes for complete pressure profiling.",
         "count": "1"
       },
       {
         "title": "Anemometer",
         "subtitle": "Handheld",
-        "desc": "",
+        "desc": "Compact device for quick airflow checks during inspection.",
         "count": "1"
       }
     ]
-  },
-  
+  }
+
+,
   "5": {
   "heading": "Certificates",
   "description": "We are proud to be recognized with industry certifications that validate our commitment to quality and standards.",
@@ -431,9 +426,7 @@
   "heading": "Contact Us",
   "description": "We're here to assist you with your needs. Whether it's a service inquiry, partnership, or support, feel free to reach out. Our team is ready to help you every step of the way.",
   "backgroundImage": "/road-8.jpeg"
-
 }
-
 }
 
 

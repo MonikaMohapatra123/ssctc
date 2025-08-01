@@ -51,18 +51,19 @@
 }
 
 .call-button {
-  display: inline-block;
-  margin-top: 2px;
   padding: 10px 20px;
   background-color: hsl(0, 93%, 34%);
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  border: 2px solid hsl(0, 93%, 34%);
+  transition: all 0.3s ease;
 }
 
 .call-button:hover {
-  background-color: #a61d1d;
+  background-color: white;
+  color: black;
+  border: 2px solid hsl(0, 93%, 34%);
 }
 
 /* Slider */

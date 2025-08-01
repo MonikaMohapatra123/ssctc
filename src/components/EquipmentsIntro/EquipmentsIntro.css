@@ -1,64 +1,63 @@
-.about-us-section {
+.equipments-intro-section {
   background-size: cover;
   background-position: center;
-  height:500px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   margin-top: 110px;
-  padding: 0 20px; /* Padding for smaller screens */
+  padding: 0 20px;
 }
 
-.about-us-overlay {
-  background: rgba(7, 41, 61, 0.7); /* Slight dark overlay */
+.equipments-intro-overlay {
+  background: rgba(7, 41, 61, 0.7);
   padding: 40px;
   color: white;
   text-align: left;
   max-width: 900px;
   width: 100%;
-  
 }
 
-.about-us-overlay h1 {
+.equipments-intro-overlay h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.about-us-overlay p {
+.equipments-intro-overlay p {
   font-size: 1.125rem;
   line-height: 1.6;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .about-us-section {
+  .equipments-intro-section {
     height: auto;
     padding: 40px 20px;
-    margin-top:80px;
+    margin-top: 80px;
   }
 
-  .about-us-overlay {
+  .equipments-intro-overlay {
     padding: 30px 20px;
     border-radius: 12px;
   }
 
-  .about-us-overlay h1 {
+  .equipments-intro-overlay h1 {
     font-size: 2rem;
   }
 
-  .about-us-overlay p {
+  .equipments-intro-overlay p {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .about-us-overlay h1 {
+  .equipments-intro-overlay h1 {
     font-size: 1.5rem;
   }
 
-  .about-us-overlay p {
+  .equipments-intro-overlay p {
     font-size: 0.95rem;
   }
 }
